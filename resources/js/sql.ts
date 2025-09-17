@@ -4,6 +4,7 @@ import { AJAX } from './modules/ajax.ts';
 import { checkFormElementInRange, checkSqlQuery, prepareForAjaxRequest } from './modules/functions.ts';
 import { Navigation } from './modules/navigation.ts';
 import { CommonParams } from './modules/common.ts';
+import createProfilingChart from './modules/functions/createProfilingChart.ts';
 import highlightSql from './modules/sql-highlight.ts';
 import { ajaxRemoveMessage, ajaxShowMessage } from './modules/ajax-message.ts';
 import { escapeBacktick, escapeHtml } from './modules/functions/escape.ts';
@@ -48,10 +49,15 @@ function urlEncode (str) {
 function autoSave (query): void {
     if (query) {
         var key = Sql.getAutoSavedKey();
-        if (isStorageSupported('localStorage')) {
-            window.localStorage.setItem(key, query);
-        } else {
-            window.Cookies.set(key, query, { path: CommonParams.get('rootPath') });
+        try {
+            if (isStorageSupported('localStorage')) {
+                window.localStorage.setItem(key, query);
+            } else {
+                window.Cookies.set(key, query, { path: CommonParams.get('rootPath') });
+            }
+        } catch (e) {
+            console.error(e);
+            ajaxShowMessage(e.message, false, 'error');
         }
 
         checkSavedQuery();
@@ -660,7 +666,7 @@ AJAX.registerOnload('sql.js', function () {
      */
     $(document).on('makeGrid', '.sqlqueryresults', function () {
         $('.table_results').each(function () {
-            if ($(this).find('td.grid_edit').length > 0) {
+            if (typeof window.makeGrid === 'function') {
                 window.makeGrid(this);
             }
         });
@@ -1364,27 +1370,7 @@ function buildProfilingChart () {
         return;
     }
 
-    const lang = CommonParams.get('lang');
-    const numberFormat = new Intl.NumberFormat(lang.replace('_', '-'), {
-        style: 'unit',
-        unit: 'second',
-        unitDisplay: 'long',
-        notation: 'engineering',
-    });
-
-    new window.Chart(profilingChartCanvas, {
-        type: 'pie',
-        data: {
-            labels: chartData.labels,
-            datasets: [{ data: chartData.data }],
-        },
-        options: {
-            plugins: {
-                legend: { position: 'bottom' },
-                tooltip: { callbacks: { label: context => context.parsed ? numberFormat.format(context.parsed) : '' } },
-            },
-        },
-    });
+    createProfilingChart('profilingChartCanvas', chartData, 'bottom');
 }
 
 /**

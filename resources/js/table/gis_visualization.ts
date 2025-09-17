@@ -183,8 +183,8 @@ class SvgVisualization extends GisVisualization {
      * Resizes the GIS visualization to fit into the space available.
      */
     private resize () {
-        const visWidth = Math.ceil($(this.target).width());
-        const visHeight = Math.ceil($(this.target).height());
+        const visWidth = Math.ceil($(this.target).width() || $(this.svgEl).width());
+        const visHeight = Math.ceil($(this.target).height() || $(this.svgEl).height());
 
         this.x += (visWidth - this.width) / 2;
         this.y += (visHeight - this.height) / 2;
@@ -396,8 +396,8 @@ class SvgVisualization extends GisVisualization {
         $('#tooltip').remove();
 
         const target = event.target as SVGElement;
-        const contents = target.getAttribute('data-label').trim();
-        if (contents === '') {
+        const contents = target.getAttribute('data-label');
+        if (!contents) {
             return;
         }
 

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin 6.0.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2025-07-27 00:32+0000\n"
-"PO-Revision-Date: 2025-05-19 07:01+0000\n"
+"POT-Creation-Date: 2025-09-14 00:27+0000\n"
+"PO-Revision-Date: 2025-08-11 09:01+0000\n"
 "Last-Translator: Hotripak <hotr1pak@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/phpmyadmin/"
 "master/uk/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: resources/templates/base.twig:36 resources/templates/login/header.twig:13
 msgid "Javascript must be enabled past this point!"
@@ -141,7 +141,7 @@ msgstr "Первинний"
 #: resources/templates/table/structure/display_structure.twig:150
 #: resources/templates/table/structure/display_structure.twig:156
 #: resources/templates/table/structure/display_structure.twig:287
-#: resources/templates/table/structure/display_structure.twig:466
+#: resources/templates/table/structure/display_structure.twig:474
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:7
 msgid "Unique"
 msgstr "Унікальне"
@@ -182,7 +182,7 @@ msgid "first"
 msgstr "перший"
 
 #: resources/templates/columns_definitions/column_attributes.twig:190
-#: resources/templates/table/structure/display_structure.twig:439
+#: resources/templates/table/structure/display_structure.twig:447
 #, php-format
 msgid "after %s"
 msgstr "після %s"
@@ -200,7 +200,7 @@ msgstr "після %s"
 #: resources/templates/table/zoom_search/index.twig:120
 #: src/Config/ConfigFile.php:554
 #: src/Controllers/JavaScriptMessagesController.php:218
-#: src/Display/Results.php:930 src/Plugins/Export/ExportSql.php:2039
+#: src/Display/Results.php:930 src/Plugins/Export/ExportSql.php:2045
 #: src/Plugins/Schema/SchemaPdf.php:96
 msgid "None"
 msgstr "Жодного"
@@ -268,8 +268,8 @@ msgstr "стовпець(і)"
 #: resources/templates/table/search/index.twig:195
 #: resources/templates/table/start_and_number_of_rows_fieldset.twig:15
 #: resources/templates/table/structure/display_structure.twig:332
-#: resources/templates/table/structure/display_structure.twig:443
-#: resources/templates/table/structure/display_structure.twig:561
+#: resources/templates/table/structure/display_structure.twig:451
+#: resources/templates/table/structure/display_structure.twig:569
 #: resources/templates/table/zoom_search/index.twig:152
 #: resources/templates/triggers/editor_form.twig:75
 #: resources/templates/view_create.twig:123 src/BrowseForeigners.php:180
@@ -469,7 +469,7 @@ msgstr "Є зовнішнім ключем."
 #: resources/templates/table/relation/foreign_key_row.twig:114
 #: resources/templates/table/relation/foreign_key_row.twig:124
 #: resources/templates/table/search/index.twig:38
-#: resources/templates/table/structure/display_structure.twig:468
+#: resources/templates/table/structure/display_structure.twig:476
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:6
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:9
 #: resources/templates/table/zoom_search/index.twig:36
@@ -538,7 +538,7 @@ msgstr "Механізм"
 #: resources/templates/database/structure/table_header.twig:46
 #: resources/templates/indexes.twig:25
 #: resources/templates/table/structure/display_partitions.twig:32
-#: resources/templates/table/structure/display_structure.twig:472
+#: resources/templates/table/structure/display_structure.twig:480
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:12
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:13
 msgid "Comment"
@@ -623,7 +623,7 @@ msgstr "Ім'я"
 #: resources/templates/table/privileges/index.twig:21
 #: resources/templates/table/search/index.twig:39
 #: resources/templates/table/structure/display_structure.twig:22
-#: resources/templates/table/structure/display_structure.twig:465
+#: resources/templates/table/structure/display_structure.twig:473
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:7
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:6
 #: resources/templates/table/zoom_search/index.twig:37 src/InsertEdit.php:258
@@ -701,7 +701,7 @@ msgstr ""
 #: resources/templates/table/operations/index.twig:152
 #: resources/templates/table/search/index.twig:40
 #: resources/templates/table/structure/display_structure.twig:23
-#: resources/templates/table/structure/display_structure.twig:470
+#: resources/templates/table/structure/display_structure.twig:478
 #: resources/templates/table/structure/display_table_stats.twig:108
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:8
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:11
@@ -726,7 +726,7 @@ msgstr "Атрибути"
 #: resources/templates/indexes.twig:24
 #: resources/templates/table/insert/get_head_and_foot_of_insert_row_table.twig:13
 #: resources/templates/table/structure/display_structure.twig:25
-#: resources/templates/table/structure/display_structure.twig:471
+#: resources/templates/table/structure/display_structure.twig:479
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:9
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:12
 #: resources/templates/table/zoom_search/result_form.twig:34
@@ -893,7 +893,7 @@ msgstr "Відключено"
 #: resources/templates/table/delete/confirm.twig:30
 #: resources/templates/table/privileges/index.twig:73
 #: resources/templates/table/structure/display_structure.twig:80
-#: resources/templates/table/structure/display_structure.twig:521
+#: resources/templates/table/structure/display_structure.twig:529
 #: resources/templates/table/structure/drop_confirm.twig:19
 #: resources/templates/table/structure/primary.twig:19
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:33
@@ -934,7 +934,7 @@ msgstr "Так"
 #: resources/templates/table/delete/confirm.twig:31
 #: resources/templates/table/privileges/index.twig:73
 #: resources/templates/table/structure/display_structure.twig:80
-#: resources/templates/table/structure/display_structure.twig:521
+#: resources/templates/table/structure/display_structure.twig:529
 #: resources/templates/table/structure/drop_confirm.twig:20
 #: resources/templates/table/structure/primary.twig:20
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:33
@@ -1004,7 +1004,7 @@ msgstr "Повторити запит"
 #: resources/templates/server/variables/index.twig:41
 #: resources/templates/server/variables/index.twig:44
 #: resources/templates/setup/home/index.twig:64
-#: resources/templates/table/structure/display_structure.twig:486
+#: resources/templates/table/structure/display_structure.twig:494
 #: resources/templates/triggers/row.twig:28
 #: resources/templates/triggers/row.twig:31 src/Config/Descriptions.php:926
 #: src/ConfigStorage/UserGroups.php:112
@@ -1050,7 +1050,7 @@ msgstr "Видалити"
 #: src/Config/Descriptions.php:934 src/Plugins/Export/ExportHtmlword.php:146
 #: src/Plugins/Export/ExportOdt.php:191
 #: src/Plugins/Export/ExportTexytext.php:131 src/Server/Privileges.php:1567
-#: src/Server/Privileges.php:1569 src/Server/Status/Processes.php:93
+#: src/Server/Privileges.php:1569 src/Server/Status/Processes.php:103
 msgid "Database"
 msgstr "База даних"
 
@@ -1085,7 +1085,7 @@ msgstr "Історія"
 #: src/Plugins/Export/ExportMediawiki.php:48
 #: src/Plugins/Export/ExportOds.php:58 src/Plugins/Export/ExportOdt.php:69
 #: src/Plugins/Export/ExportPdf.php:67 src/Plugins/Export/ExportPhparray.php:45
-#: src/Plugins/Export/ExportSql.php:167
+#: src/Plugins/Export/ExportSql.php:168
 #: src/Plugins/Export/ExportTexytext.php:55 src/Plugins/Export/ExportXml.php:73
 #: src/Plugins/Export/ExportYaml.php:44 src/Plugins/Import/ImportCsv.php:87
 #: src/Plugins/Import/ImportLdi.php:62
@@ -1201,7 +1201,7 @@ msgstr "Час створення:"
 #: resources/templates/console/display.twig:133
 #: resources/templates/server/status/processes/index.twig:19
 #: resources/templates/server/status/variables/index.twig:42
-#: src/Config/Descriptions.php:928 src/Export/Export.php:1076
+#: src/Config/Descriptions.php:928 src/Export/Export.php:1077
 #: src/Html/Generator.php:576
 msgid "Refresh"
 msgstr "Оновити"
@@ -1324,7 +1324,7 @@ msgid "Search this table"
 msgstr "Шукати в таблиці"
 
 #: resources/templates/database/central_columns/main.twig:184
-#: resources/templates/table/structure/display_structure.twig:424
+#: resources/templates/table/structure/display_structure.twig:432
 msgid "Add column"
 msgstr "Додати стовпець"
 
@@ -1354,7 +1354,7 @@ msgstr "Натисніть для сортування."
 #: resources/templates/table/privileges/index.twig:24
 #: resources/templates/table/structure/display_partitions.twig:34
 #: resources/templates/table/structure/display_structure.twig:34
-#: resources/templates/table/structure/display_structure.twig:463
+#: resources/templates/table/structure/display_structure.twig:471
 #: resources/templates/table/tracking/main.twig:32
 #: resources/templates/table/tracking/report_table.twig:8
 msgid "Action"
@@ -1429,7 +1429,7 @@ msgstr "Посилання на"
 
 #: resources/templates/database/data_dictionary/index.twig:68
 #: resources/templates/indexes.twig:3
-#: resources/templates/table/structure/display_structure.twig:450
+#: resources/templates/table/structure/display_structure.twig:458
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:1
 #: src/Controllers/Server/DatabasesController.php:261
 #: src/Navigation/Nodes/NodeIndexContainer.php:23
@@ -1439,7 +1439,7 @@ msgstr "Індекси"
 
 #: resources/templates/database/data_dictionary/index.twig:73
 #: resources/templates/indexes.twig:17
-#: resources/templates/table/structure/display_structure.twig:464
+#: resources/templates/table/structure/display_structure.twig:472
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:5
 #: src/BrowseForeigners.php:195 src/BrowseForeigners.php:199
 msgid "Keyname"
@@ -1447,21 +1447,21 @@ msgstr "Назва ключа"
 
 #: resources/templates/database/data_dictionary/index.twig:76
 #: resources/templates/indexes.twig:20
-#: resources/templates/table/structure/display_structure.twig:467
+#: resources/templates/table/structure/display_structure.twig:475
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:8
 msgid "Packed"
 msgstr "Запакований"
 
 #: resources/templates/database/data_dictionary/index.twig:78
 #: resources/templates/indexes.twig:22
-#: resources/templates/table/structure/display_structure.twig:469
+#: resources/templates/table/structure/display_structure.twig:477
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:10
 msgid "Cardinality"
 msgstr "Кількість елементів"
 
 #: resources/templates/database/data_dictionary/index.twig:117
 #: resources/templates/indexes.twig:93
-#: resources/templates/table/structure/display_structure.twig:548
+#: resources/templates/table/structure/display_structure.twig:556
 msgid "No index defined!"
 msgstr "Індекс не визначено!"
 
@@ -1758,7 +1758,7 @@ msgstr "Назва події"
 #: resources/templates/table/tracking/main.twig:31
 #: src/Config/ConfigFile.php:578
 #: src/Controllers/JavaScriptMessagesController.php:275 src/Menu.php:446
-#: src/Server/Status/Processes.php:96 src/Util.php:1359
+#: src/Server/Status/Processes.php:106 src/Util.php:1359
 msgid "Status"
 msgstr "Статус"
 
@@ -1825,7 +1825,7 @@ msgstr "Визначник"
 #: resources/templates/database/events/index.twig:3 src/Menu.php:377
 #: src/Navigation/Nodes/NodeEventContainer.php:22
 #: src/Navigation/Nodes/NodeEventContainer.php:24
-#: src/Plugins/Export/ExportSql.php:997 src/Plugins/Export/ExportXml.php:97
+#: src/Plugins/Export/ExportSql.php:998 src/Plugins/Export/ExportXml.php:97
 #: src/Util.php:1381
 msgid "Events"
 msgstr "Події"
@@ -1912,11 +1912,11 @@ msgstr "Експорт"
 #: resources/templates/table/structure/display_partitions.twig:146
 #: resources/templates/table/structure/display_structure.twig:120
 #: resources/templates/table/structure/display_structure.twig:279
-#: resources/templates/table/structure/display_structure.twig:514
+#: resources/templates/table/structure/display_structure.twig:522
 #: resources/templates/triggers/list.twig:20
 #: resources/templates/triggers/list.twig:21
 #: resources/templates/triggers/row.twig:52
-#: resources/templates/triggers/row.twig:58 src/Operations.php:536
+#: resources/templates/triggers/row.twig:58 src/Operations.php:543
 msgid "Drop"
 msgstr "Знищити"
 
@@ -2633,6 +2633,7 @@ msgid "Copy table"
 msgstr "Копіювати таблицю"
 
 #: resources/templates/database/structure/check_all_tables.twig:11
+#: resources/templates/table/structure/display_structure.twig:417
 msgid "Show create"
 msgstr "Показати створене"
 
@@ -2731,7 +2732,7 @@ msgstr ""
 
 #: resources/templates/database/structure/copy_form.twig:5
 #: resources/templates/menu/main.twig:16 src/Plugins/Export/ExportLatex.php:260
-#: src/Plugins/Export/ExportSql.php:928 src/Plugins/Export/ExportXml.php:367
+#: src/Plugins/Export/ExportSql.php:929 src/Plugins/Export/ExportXml.php:367
 #: src/Plugins/Export/Helpers/Pdf.php:177
 msgid "Database:"
 msgstr "База даних:"
@@ -3112,7 +3113,7 @@ msgstr "Операції з результатами запиту"
 
 #: resources/templates/display/results/table.twig:353
 #: src/Controllers/JavaScriptMessagesController.php:466
-#: src/Export/Export.php:1095
+#: src/Export/Export.php:1096
 msgid "Copy to clipboard"
 msgstr "Скопіювати до буфера обміну"
 
@@ -3549,7 +3550,7 @@ msgid "Server connection:"
 msgstr "Підключення сервера:"
 
 #: resources/templates/home/index.twig:198
-#: src/Plugins/Export/ExportLatex.php:233 src/Plugins/Export/ExportSql.php:766
+#: src/Plugins/Export/ExportLatex.php:233 src/Plugins/Export/ExportSql.php:767
 #: src/Plugins/Export/ExportXml.php:216
 msgid "Server version:"
 msgstr "Версія сервера:"
@@ -3637,7 +3638,7 @@ msgstr "Прийняти"
 #: resources/templates/import_status.twig:2
 #: resources/templates/user_password.twig:2
 #: src/Controllers/JavaScriptMessagesController.php:411
-#: src/Export/Export.php:1118 src/Html/Generator.php:855
+#: src/Export/Export.php:1119 src/Html/Generator.php:855
 #: src/Plugins/Schema/ExportRelationSchema.php:266
 msgid "Back"
 msgstr "Назад"
@@ -3741,17 +3742,17 @@ msgid "Other options"
 msgstr "Інші параметри"
 
 #: resources/templates/indexes.twig:40
-#: resources/templates/table/structure/display_structure.twig:495
+#: resources/templates/table/structure/display_structure.twig:503
 msgid "Rename"
 msgstr "Перейменувати"
 
 #: resources/templates/indexes.twig:46
-#: resources/templates/table/structure/display_structure.twig:501
+#: resources/templates/table/structure/display_structure.twig:509
 msgid "The primary key has been dropped."
 msgstr "Первинний ключ було знищено."
 
 #: resources/templates/indexes.twig:51
-#: resources/templates/table/structure/display_structure.twig:506
+#: resources/templates/table/structure/display_structure.twig:514
 #, php-format
 msgid "Index %s has been dropped."
 msgstr "Індекс %s було знищено."
@@ -4543,8 +4544,8 @@ msgid "Check privileges"
 msgstr "Перевірити привілеї"
 
 #: resources/templates/server/databases/index.twig:249
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:34
 #: src/Controllers/JavaScriptMessagesController.php:293
-#: src/Engines/Innodb.php:133
 msgid "Total:"
 msgstr "Всього:"
 
@@ -4585,6 +4586,67 @@ msgstr "Тип таблиць"
 #: src/BrowseForeigners.php:196 src/BrowseForeigners.php:198
 msgid "Description"
 msgstr "Опис"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:2
+msgid "Buffer pool usage"
+msgstr "Використання буферного пулу"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:5
+msgid "Free pages"
+msgstr "Чисті сторінки"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:9
+msgid "Dirty pages"
+msgstr "Змінені сторінки"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:13
+msgid "Pages containing data"
+msgstr "Сторінки з даними"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:17
+msgid "Pages to be flushed"
+msgstr "Сторінки для очищення"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:21
+msgid "Busy pages"
+msgstr "Зайняті сторінки"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:26
+msgid "Latched pages"
+msgstr "Заблоковані сторінки"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:34
+#, php-format
+msgid "%s pages"
+msgstr "%s сторінок"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:41
+msgid "Buffer pool activity"
+msgstr "Активність буферного пулу"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:44
+msgid "Read requests"
+msgstr "Запити читання"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:48
+msgid "Write requests"
+msgstr "Запити запису"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:52
+msgid "Read misses"
+msgstr "Пропуски читання"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:56
+msgid "Write waits"
+msgstr "Очікування запису"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:60
+msgid "Read misses in %"
+msgstr "Пропуски читання у %"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:66
+msgid "Write waits in %"
+msgstr "Очікування запису в %"
 
 #: resources/templates/server/engines/show.twig:18
 #: resources/templates/server/engines/show.twig:21
@@ -5351,7 +5413,7 @@ msgstr ""
 
 #: resources/templates/server/replication/change_primary.twig:25
 #: resources/templates/server/replication/primary_add_replica_user.twig:29
-#: src/Plugins/Export/ExportLatex.php:225 src/Plugins/Export/ExportSql.php:755
+#: src/Plugins/Export/ExportLatex.php:225 src/Plugins/Export/ExportSql.php:756
 #: src/Plugins/Export/ExportXml.php:207
 msgid "Host:"
 msgstr "Хост:"
@@ -5387,7 +5449,7 @@ msgstr "Використовувати текстове поле:"
 #: resources/templates/server/replication/primary_add_replica_user.twig:32
 #: resources/templates/server/replication/primary_add_replica_user.twig:43
 #: resources/templates/server/replication/primary_replication.twig:25
-#: src/Server/Status/Processes.php:92
+#: src/Server/Status/Processes.php:102
 msgid "Host"
 msgstr "Хост"
 
@@ -6189,7 +6251,7 @@ msgstr "Жодного користувача не виявлено, що нал
 
 #: resources/templates/server/user_groups/user_listings.twig:9
 #: src/Controllers/Server/PrivilegesController.php:432
-#: src/Server/Status/Processes.php:91
+#: src/Server/Status/Processes.php:101
 msgid "User"
 msgstr "Користувач"
 
@@ -6346,7 +6408,7 @@ msgstr "Стан"
 #: src/Plugins/Export/ExportHtmlword.php:440
 #: src/Plugins/Export/ExportOdt.php:559
 #: src/Plugins/Export/ExportTexytext.php:425
-#: src/Plugins/Export/Helpers/Pdf.php:333 src/Server/Status/Processes.php:95
+#: src/Plugins/Export/Helpers/Pdf.php:333 src/Server/Status/Processes.php:105
 msgid "Time"
 msgstr "Час"
 
@@ -6392,13 +6454,13 @@ msgstr "Секторна дiаграма з результатами профі�
 #: src/Controllers/Table/Partition/RepairController.php:49
 #: src/Controllers/Table/Partition/TruncateController.php:50
 #: src/Controllers/Table/RelationController.php:143
-#: src/Database/Routines.php:1019 src/Display/Results.php:3012
+#: src/Database/Routines.php:1019 src/Display/Results.php:3011
 #: src/Message.php:122
 msgid "Your SQL query has been executed successfully."
 msgstr "Ваш SQL запит було виконано вдало."
 
 #: resources/templates/sql/query.twig:20 src/Server/Status/Data.php:113
-#: src/Server/Status/Processes.php:103
+#: src/Server/Status/Processes.php:113
 msgid "SQL query"
 msgstr "SQL запит"
 
@@ -7065,7 +7127,7 @@ msgid "Start row:"
 msgstr "Початковий рядок:"
 
 #: resources/templates/table/structure/display_partitions.twig:3
-#: resources/templates/table/structure/display_structure.twig:586
+#: resources/templates/table/structure/display_structure.twig:594
 msgid "Partitions"
 msgstr "Розділи"
 
@@ -7090,32 +7152,32 @@ msgid "Index length"
 msgstr "Довжина індекса"
 
 #: resources/templates/table/structure/display_partitions.twig:85
-#: src/Operations.php:519
+#: src/Operations.php:526
 msgid "Analyze"
 msgstr "Аналізувати"
 
 #: resources/templates/table/structure/display_partitions.twig:95
-#: src/Operations.php:520
+#: src/Operations.php:527
 msgid "Check"
 msgstr "Перевірити"
 
 #: resources/templates/table/structure/display_partitions.twig:105
-#: src/Operations.php:521
+#: src/Operations.php:528
 msgid "Optimize"
 msgstr "Оптимізувати"
 
 #: resources/templates/table/structure/display_partitions.twig:115
-#: src/Operations.php:522
+#: src/Operations.php:529
 msgid "Rebuild"
 msgstr "Перебудувати"
 
 #: resources/templates/table/structure/display_partitions.twig:125
-#: src/Operations.php:523
+#: src/Operations.php:530
 msgid "Repair"
 msgstr "Відремонтувати"
 
 #: resources/templates/table/structure/display_partitions.twig:135
-#: src/Operations.php:524
+#: src/Operations.php:531
 msgid "Truncate"
 msgstr "Обрізати"
 
@@ -7197,20 +7259,20 @@ msgstr "Запропонувати структуру таблиці"
 msgid "Normalize"
 msgstr "Упорядковувати"
 
-#: resources/templates/table/structure/display_structure.twig:415
+#: resources/templates/table/structure/display_structure.twig:423
 msgid "Track view"
 msgstr "Огляд відслідкувань"
 
-#: resources/templates/table/structure/display_structure.twig:429
+#: resources/templates/table/structure/display_structure.twig:437
 #, php-format
 msgid "Add %s column(s)"
 msgstr "Додати %s стовпець(ів)"
 
-#: resources/templates/table/structure/display_structure.twig:434
+#: resources/templates/table/structure/display_structure.twig:442
 msgid "at beginning of table"
 msgstr "на початку таблиці"
 
-#: resources/templates/table/structure/display_structure.twig:558
+#: resources/templates/table/structure/display_structure.twig:566
 #, php-format
 msgid "Create an index on %s columns"
 msgstr "Створити індекс у %s стовпцях"
@@ -7379,7 +7441,7 @@ msgstr "Експортувати тригер %s"
 #: src/Navigation/Nodes/NodeTriggerContainer.php:25
 #: src/Plugins/Export/ExportHtmlword.php:495
 #: src/Plugins/Export/ExportOdt.php:626 src/Plugins/Export/ExportPdf.php:235
-#: src/Plugins/Export/ExportSql.php:1907
+#: src/Plugins/Export/ExportSql.php:1913
 #: src/Plugins/Export/ExportTexytext.php:465
 #: src/Plugins/Export/ExportXml.php:117 src/Util.php:1382 src/Util.php:1398
 msgid "Triggers"
@@ -7434,19 +7496,19 @@ msgstr "Не вдалося виконати тест для правила \"%s
 msgid "Failed formatting string for rule '%s'."
 msgstr "Не вдалося виконати форматування рядка для правила '%s'."
 
-#: src/Advisory/Advisor.php:386
+#: src/Advisory/Advisor.php:401
 msgid "per second"
 msgstr "за секунду"
 
-#: src/Advisory/Advisor.php:389
+#: src/Advisory/Advisor.php:404
 msgid "per minute"
 msgstr "за хвилину"
 
-#: src/Advisory/Advisor.php:392
+#: src/Advisory/Advisor.php:407
 msgid "per hour"
 msgstr "за годину"
 
-#: src/Advisory/Advisor.php:395
+#: src/Advisory/Advisor.php:410
 msgid "per day"
 msgstr "за день"
 
@@ -9127,7 +9189,7 @@ msgstr "Вимкнути"
 #: src/Plugins/Export/ExportLatex.php:113
 #: src/Plugins/Export/ExportMediawiki.php:68
 #: src/Plugins/Export/ExportOdt.php:84 src/Plugins/Export/ExportPdf.php:92
-#: src/Plugins/Export/ExportSql.php:266
+#: src/Plugins/Export/ExportSql.php:267
 #: src/Plugins/Export/ExportTexytext.php:70
 msgid "structure"
 msgstr "структура"
@@ -9138,7 +9200,7 @@ msgstr "структура"
 #: src/Plugins/Export/ExportLatex.php:113
 #: src/Plugins/Export/ExportMediawiki.php:68
 #: src/Plugins/Export/ExportOdt.php:84 src/Plugins/Export/ExportPdf.php:92
-#: src/Plugins/Export/ExportSql.php:266
+#: src/Plugins/Export/ExportSql.php:267
 #: src/Plugins/Export/ExportTexytext.php:70
 msgid "data"
 msgstr "дані"
@@ -9149,7 +9211,7 @@ msgstr "дані"
 #: src/Plugins/Export/ExportLatex.php:113
 #: src/Plugins/Export/ExportMediawiki.php:68
 #: src/Plugins/Export/ExportOdt.php:84 src/Plugins/Export/ExportPdf.php:92
-#: src/Plugins/Export/ExportSql.php:266
+#: src/Plugins/Export/ExportSql.php:267
 #: src/Plugins/Export/ExportTexytext.php:70
 msgid "structure and data"
 msgstr "структура і дані"
@@ -9354,7 +9416,7 @@ msgstr ""
 "обмежено)."
 
 #: src/Config/Descriptions.php:171 src/Config/Descriptions.php:708
-#: src/Plugins/Export/ExportSql.php:366
+#: src/Plugins/Export/ExportSql.php:367
 msgid "Exclude definition of current user"
 msgstr "Виключити визначення поточного користувача"
 
@@ -10678,7 +10740,7 @@ msgstr "Шаблон імені таблиці"
 #: src/Plugins/Export/ExportMediawiki.php:58
 #: src/Plugins/Export/ExportMediawiki.php:64
 #: src/Plugins/Export/ExportOdt.php:79 src/Plugins/Export/ExportPdf.php:88
-#: src/Plugins/Export/ExportSql.php:262
+#: src/Plugins/Export/ExportSql.php:263
 #: src/Plugins/Export/ExportTexytext.php:65
 msgid "Dump table"
 msgstr "Дамп таблиці"
@@ -10740,11 +10802,11 @@ msgstr "Створення/Оновлення/Перевірка дати"
 msgid "Use delayed inserts"
 msgstr "Використовувати вставки з затримкою"
 
-#: src/Config/Descriptions.php:692 src/Plugins/Export/ExportSql.php:231
+#: src/Config/Descriptions.php:692 src/Plugins/Export/ExportSql.php:232
 msgid "Disable foreign key checks"
 msgstr "Відключити перевірки зовнішніх ключів"
 
-#: src/Config/Descriptions.php:693 src/Plugins/Export/ExportSql.php:241
+#: src/Config/Descriptions.php:693 src/Plugins/Export/ExportSql.php:242
 msgid "Export views as tables"
 msgstr "Експорт видів як таблиць"
 
@@ -10764,7 +10826,7 @@ msgstr ""
 "Додати IF NOT EXISTS (менш ефективно, чим генерування індексів при створенні "
 "таблиці)"
 
-#: src/Config/Descriptions.php:709 src/Plugins/Export/ExportSql.php:372
+#: src/Config/Descriptions.php:709 src/Plugins/Export/ExportSql.php:373
 #, php-format
 msgid "%s view"
 msgstr "%s вид"
@@ -10777,7 +10839,7 @@ msgstr "Використовувати ігнорування вставок"
 msgid "Syntax to use when inserting data"
 msgstr "Синтакс що використовується коли вставляють дані"
 
-#: src/Config/Descriptions.php:713 src/Plugins/Export/ExportSql.php:499
+#: src/Config/Descriptions.php:713 src/Plugins/Export/ExportSql.php:500
 msgid "Maximal length of created query"
 msgstr "Максимальна довжина створеного запиту"
 
@@ -10785,7 +10847,7 @@ msgstr "Максимальна довжина створеного запиту"
 msgid "Export type"
 msgstr "Тип експорту"
 
-#: src/Config/Descriptions.php:719 src/Plugins/Export/ExportSql.php:221
+#: src/Config/Descriptions.php:719 src/Plugins/Export/ExportSql.php:222
 msgid "Enclose export in a transaction"
 msgstr "Помістити експорт у транзакцію"
 
@@ -11693,12 +11755,12 @@ msgstr ""
 "Неможливо зберегти налаштування, відправлена форма конфігурації містить "
 "помилки!"
 
-#: src/Config.php:433
+#: src/Config.php:434
 #, php-format
 msgid "Existing configuration file (%s) is not readable."
 msgstr "Існуючий файл конфігурації (%s) не читабельний."
 
-#: src/Config.php:466
+#: src/Config.php:467
 msgid "Wrong permissions on configuration file, should not be world writable!"
 msgstr ""
 "Невірні права доступу до конфігураційного файлу, він не повинен бути "
@@ -11852,11 +11914,11 @@ msgstr ""
 msgid "Server %d"
 msgstr "Сервер %d"
 
-#: src/ConfigStorage/Relation.php:1116
+#: src/ConfigStorage/Relation.php:1112
 msgid "no description"
 msgstr "без опису"
 
-#: src/ConfigStorage/Relation.php:1322
+#: src/ConfigStorage/Relation.php:1318
 #, php-format
 msgid ""
 "You do not have necessary privileges to create a database named '%s'. You "
@@ -12244,7 +12306,7 @@ msgid "Success!"
 msgstr "Успіх!"
 
 #: src/Controllers/Database/StructureController.php:567
-#: src/Display/Results.php:3285
+#: src/Display/Results.php:3292
 #, php-format
 msgid ""
 "This view has at least this number of rows. Please refer to "
@@ -12253,7 +12315,7 @@ msgstr ""
 "Подання має щонайменше цю кількість рядків. Будь-ласка, зверніться до "
 "%sдокументації%s."
 
-#: src/Controllers/Database/StructureController.php:734
+#: src/Controllers/Database/StructureController.php:737
 msgid "unknown"
 msgstr "невідоме"
 
@@ -12307,7 +12369,7 @@ msgstr "Якщо це створює проблему - надішліть по�
 msgid "You may want to refresh the page."
 msgstr "Можливо, варто перезавантажити сторінку."
 
-#: src/Controllers/Export/ExportController.php:119 src/Export/Export.php:1056
+#: src/Controllers/Export/ExportController.php:119 src/Export/Export.php:1057
 msgid "Bad type!"
 msgstr "Помилковий тип!"
 
@@ -12503,7 +12565,7 @@ msgstr ""
 msgid "\"DROP DATABASE\" statements are disabled."
 msgstr "Оператор \"DROP DATABASE\" вимкнений."
 
-#: src/Controllers/Import/ImportController.php:680 src/Sql.php:879
+#: src/Controllers/Import/ImportController.php:680 src/Sql.php:902
 msgid "[ROLLBACK occurred.]"
 msgstr "[відбувся відкат]"
 
@@ -12512,7 +12574,7 @@ msgid "Only single-table UPDATE and DELETE queries can be simulated."
 msgstr ""
 "Тільки однією з таблиць UPDATE і DELETE запити можуть бути змодельовані."
 
-#: src/Controllers/Import/StatusController.php:65
+#: src/Controllers/Import/StatusController.php:72
 msgid "Could not load the progress of the import."
 msgstr "Не вдалося завантажити, щоб розпочати імпорт."
 
@@ -15266,7 +15328,7 @@ msgstr "Неправильні дані"
 msgid "Wrong data or no validation for %s"
 msgstr "Невірні чи не підтверджені дані для %s"
 
-#: src/Controllers/Sql/SqlController.php:213 src/Sql.php:1055
+#: src/Controllers/Sql/SqlController.php:213 src/Sql.php:1078
 #, php-format
 msgid "Bookmark %s has been created."
 msgstr "Закладку %s створено."
@@ -15345,7 +15407,7 @@ msgstr "Виникла проблема з вашим запитом."
 
 #: src/Controllers/Table/GetFieldController.php:87
 #: src/Database/Routines.php:1036 src/Import/Import.php:135
-#: src/InsertEdit.php:159 src/Sql.php:865
+#: src/InsertEdit.php:159 src/Sql.php:888
 msgid "MySQL returned an empty result set (i.e. zero rows)."
 msgstr "MySQL повернула пустий результат (тобто нуль рядків)."
 
@@ -15696,7 +15758,7 @@ msgstr[0] "%d рядок залежить від останнього опера
 msgstr[1] "%d рядки залежать від останнього оператора всередині процедури."
 msgstr[2] "%d рядків залежать від останнього оператора всередині процедури."
 
-#: src/Dbal/DatabaseInterface.php:1054
+#: src/Dbal/DatabaseInterface.php:1052
 #, php-format
 msgid ""
 "Unable to use timezone \"%1$s\" for server %2$d. Please check your "
@@ -15708,7 +15770,7 @@ msgstr ""
 "['SessionTimeZone'][/em]. phpMyAdmin в даний час використовує стандартний "
 "часовий пояс сервера бази даних."
 
-#: src/Dbal/DatabaseInterface.php:1095
+#: src/Dbal/DatabaseInterface.php:1093
 msgid "Failed to set configured collation connection!"
 msgstr "Не вдалося встановити конфігурацію співставлення підключення!"
 
@@ -15725,27 +15787,27 @@ msgstr ""
 msgid "The row has been deleted."
 msgstr "Рядок видалено."
 
-#: src/Display/Results.php:3294
-#, php-format
-msgid "Showing rows %1s - %2s"
-msgstr "Показано рядки %1s - %2s"
-
-#: src/Display/Results.php:3308
-#, php-format
-msgid "%1$s total, %2$s in query"
-msgstr "%1$s всього, %2$s в запиті"
-
-#: src/Display/Results.php:3313
-#, php-format
-msgid "%s total"
-msgstr "%s всього"
-
-#: src/Display/Results.php:3326 src/Sql.php:871
+#: src/Display/Results.php:3016 src/Display/Results.php:3333 src/Sql.php:894
 #, php-format
 msgid "Query took %01.4f seconds."
 msgstr "Запит виконувався %01.4f секунди."
 
-#: src/Display/Results.php:3622
+#: src/Display/Results.php:3301
+#, php-format
+msgid "Showing rows %1s - %2s"
+msgstr "Показано рядки %1s - %2s"
+
+#: src/Display/Results.php:3315
+#, php-format
+msgid "%1$s total, %2$s in query"
+msgstr "%1$s всього, %2$s в запиті"
+
+#: src/Display/Results.php:3320
+#, php-format
+msgid "%s total"
+msgstr "%s всього"
+
+#: src/Display/Results.php:3629
 msgid "Link not found!"
 msgstr "Посилання не знайдено!"
 
@@ -15753,23 +15815,23 @@ msgstr "Посилання не знайдено!"
 msgid "Version information"
 msgstr "Відомості про версію"
 
-#: src/Engines/Innodb.php:32
+#: src/Engines/Innodb.php:29
 msgid "Data home directory"
 msgstr "Домашній каталог даних"
 
-#: src/Engines/Innodb.php:33
+#: src/Engines/Innodb.php:30
 msgid "The common part of the directory path for all InnoDB data files."
 msgstr "Загальна частина шляху до каталогу всіх файлів даних InnoDB."
 
-#: src/Engines/Innodb.php:35
+#: src/Engines/Innodb.php:32
 msgid "Data files"
 msgstr "Файли даних"
 
-#: src/Engines/Innodb.php:37
+#: src/Engines/Innodb.php:34
 msgid "Autoextend increment"
 msgstr "Приріст авторозширення"
 
-#: src/Engines/Innodb.php:39
+#: src/Engines/Innodb.php:36
 msgid ""
 "The increment size for extending the size of an autoextending tablespace "
 "when it becomes full."
@@ -15777,11 +15839,11 @@ msgstr ""
 "Розмір приросту, на який розширюється таблиця при авторозширенні, коли вона "
 "заповнюється."
 
-#: src/Engines/Innodb.php:44
+#: src/Engines/Innodb.php:41
 msgid "Buffer pool size"
 msgstr "Розмір буферного пулу"
 
-#: src/Engines/Innodb.php:45
+#: src/Engines/Innodb.php:42
 msgid ""
 "The size of the memory buffer InnoDB uses to cache data and indexes of its "
 "tables."
@@ -15789,73 +15851,13 @@ msgstr ""
 "Розмір буферу пам'яті, що InnoDB використовує для кешування даних та "
 "індексів її таблиць."
 
-#: src/Engines/Innodb.php:105
+#: src/Engines/Innodb.php:102
 msgid "Buffer Pool"
 msgstr "Буферний пул"
 
-#: src/Engines/Innodb.php:105 src/Server/Status/Data.php:187
+#: src/Engines/Innodb.php:102 src/Server/Status/Data.php:187
 msgid "InnoDB Status"
 msgstr "Статус InnoDB"
-
-#: src/Engines/Innodb.php:128
-msgid "Buffer Pool Usage"
-msgstr "Використання буферного пулу"
-
-#: src/Engines/Innodb.php:135
-msgid "pages"
-msgstr "сторінки"
-
-#: src/Engines/Innodb.php:143
-msgid "Free pages"
-msgstr "Чисті сторінки"
-
-#: src/Engines/Innodb.php:149
-msgid "Dirty pages"
-msgstr "Змінені сторінки"
-
-#: src/Engines/Innodb.php:155
-msgid "Pages containing data"
-msgstr "Сторінки з даними"
-
-#: src/Engines/Innodb.php:161
-msgid "Pages to be flushed"
-msgstr "Сторінки для очищення"
-
-#: src/Engines/Innodb.php:167
-msgid "Busy pages"
-msgstr "Зайняті сторінки"
-
-#: src/Engines/Innodb.php:176
-msgid "Latched pages"
-msgstr "Заблоковані сторінки"
-
-#: src/Engines/Innodb.php:187
-msgid "Buffer Pool Activity"
-msgstr "Активність буферного пулу"
-
-#: src/Engines/Innodb.php:191
-msgid "Read requests"
-msgstr "Запити читання"
-
-#: src/Engines/Innodb.php:197
-msgid "Write requests"
-msgstr "Запити запису"
-
-#: src/Engines/Innodb.php:203
-msgid "Read misses"
-msgstr "Пропуски читання"
-
-#: src/Engines/Innodb.php:209
-msgid "Write waits"
-msgstr "Очікування запису"
-
-#: src/Engines/Innodb.php:215
-msgid "Read misses in %"
-msgstr "Пропуски читання у %"
-
-#: src/Engines/Innodb.php:230
-msgid "Write waits in %"
-msgstr "Очікування запису в %"
 
 #: src/Engines/Myisam.php:28
 msgid "Data pointer size"
@@ -16127,13 +16129,13 @@ msgstr ""
 "того, як ви знову ввійдете в систему, ви зможете відновити роботу з того "
 "місця, де ви зупинилися."
 
-#: src/Export/Export.php:189 src/Export/Export.php:220
-#: src/Export/Export.php:428
+#: src/Export/Export.php:190 src/Export/Export.php:221
+#: src/Export/Export.php:429
 #, php-format
 msgid "Insufficient space to save the file %s."
 msgstr "Бракує місця для збереження файлу %s."
 
-#: src/Export/Export.php:381
+#: src/Export/Export.php:382
 #, php-format
 msgid ""
 "File %s already exists on server, change filename or check overwrite option."
@@ -16141,18 +16143,18 @@ msgstr ""
 "Файл %s існує на сервері, змініть ім'я файлу, або відмітьте опцію на "
 "перезапис."
 
-#: src/Export/Export.php:388 src/Export/Export.php:398
+#: src/Export/Export.php:389 src/Export/Export.php:399
 #, php-format
 msgid "The web server does not have permission to save the file %s."
 msgstr "Веб-сервер не має привілеїв для збереження файлу %s."
 
-#: src/Export/Export.php:435
+#: src/Export/Export.php:436
 #, php-format
 msgid "Dump has been saved to file %s."
 msgstr "Dump збережено у файл %s."
 
 #. l10n: A query written by the user is a "raw query" that could be using no tables or databases in particular
-#: src/Export/Export.php:774
+#: src/Export/Export.php:775
 msgid "Exporting a raw query is not supported for this export method."
 msgstr ""
 "Експорт необробленого запиту не підтримується для цього методу експорту."
@@ -16432,11 +16434,11 @@ msgstr ""
 msgid "web server upload directory:"
 msgstr "каталог завантаження веб-сервера:"
 
-#: src/InsertEdit.php:855 src/Sql.php:862
+#: src/InsertEdit.php:855 src/Sql.php:885
 msgid "Showing SQL query"
 msgstr "Показ SQL-запиту"
 
-#: src/InsertEdit.php:879 src/Sql.php:842
+#: src/InsertEdit.php:879 src/Sql.php:865
 #, php-format
 msgid "Inserted row id: %1$d"
 msgstr "Ідентифікатор вставленого рядка: %1$d"
@@ -16567,7 +16569,7 @@ msgstr "Нова"
 
 #: src/Navigation/Nodes/NodeFunctionContainer.php:22
 #: src/Navigation/Nodes/NodeFunctionContainer.php:26
-#: src/Plugins/Export/ExportSql.php:644 src/Plugins/Export/ExportXml.php:102
+#: src/Plugins/Export/ExportSql.php:645 src/Plugins/Export/ExportXml.php:102
 msgid "Functions"
 msgstr "Функції"
 
@@ -16587,7 +16589,7 @@ msgstr "Розгорнути/Згорнути"
 
 #: src/Navigation/Nodes/NodeProcedureContainer.php:22
 #: src/Navigation/Nodes/NodeProcedureContainer.php:26
-#: src/Plugins/Export/ExportSql.php:633 src/Plugins/Export/ExportXml.php:107
+#: src/Plugins/Export/ExportSql.php:634 src/Plugins/Export/ExportXml.php:107
 msgid "Procedures"
 msgstr "Процедури"
 
@@ -16884,39 +16886,39 @@ msgstr "Цей список заснований на підмножині да�
 msgid "No partial dependencies found!"
 msgstr "Часткових зв'язків не знайдено!"
 
-#: src/Operations.php:538
+#: src/Operations.php:545
 msgid "Coalesce"
 msgstr "Об'єднати"
 
-#: src/Operations.php:889
+#: src/Operations.php:896
 msgid "Can't move table to same one!"
 msgstr "Не можу перенести таблицю саму в себе!"
 
-#: src/Operations.php:891
+#: src/Operations.php:898
 msgid "Can't copy table to same one!"
 msgstr "Не можу скопіювати таблицю саму в себе!"
 
-#: src/Operations.php:927
+#: src/Operations.php:934
 #, php-format
 msgid "Table %s has been moved to %s. Privileges have been adjusted."
 msgstr "Таблицю %s було перенесено в %s. Привілеї були скориговані."
 
-#: src/Operations.php:933
+#: src/Operations.php:940
 #, php-format
 msgid "Table %s has been copied to %s. Privileges have been adjusted."
 msgstr "Таблицю %s скопійовано в %s. Привілеї були скориговані."
 
-#: src/Operations.php:939
+#: src/Operations.php:946
 #, php-format
 msgid "Table %s has been moved to %s."
 msgstr "Таблицю %s було перенесено в %s."
 
-#: src/Operations.php:943
+#: src/Operations.php:950
 #, php-format
 msgid "Table %s has been copied to %s."
 msgstr "Таблицю %s було скопійовано в %s."
 
-#: src/Operations.php:966
+#: src/Operations.php:973
 msgid "The table name is empty!"
 msgstr "Порожня назва таблиці!"
 
@@ -17043,25 +17045,25 @@ msgid "Data dump options"
 msgstr "Параметри дампу даних"
 
 #: src/Plugins/Export/ExportHtmlword.php:192
-#: src/Plugins/Export/ExportOdt.php:244 src/Plugins/Export/ExportSql.php:2149
+#: src/Plugins/Export/ExportOdt.php:244 src/Plugins/Export/ExportSql.php:2155
 #: src/Plugins/Export/ExportTexytext.php:177
 msgid "Dumping data for table"
 msgstr "Дамп даних таблиці"
 
 #: src/Plugins/Export/ExportHtmlword.php:486
-#: src/Plugins/Export/ExportOdt.php:616 src/Plugins/Export/ExportSql.php:1893
+#: src/Plugins/Export/ExportOdt.php:616 src/Plugins/Export/ExportSql.php:1899
 #: src/Plugins/Export/ExportTexytext.php:458
 msgid "Table structure for table"
 msgstr "Структура таблиці"
 
 #: src/Plugins/Export/ExportHtmlword.php:503
-#: src/Plugins/Export/ExportOdt.php:636 src/Plugins/Export/ExportSql.php:1951
+#: src/Plugins/Export/ExportOdt.php:636 src/Plugins/Export/ExportSql.php:1957
 #: src/Plugins/Export/ExportTexytext.php:471
 msgid "Structure for view"
 msgstr "Структура для представлення"
 
 #: src/Plugins/Export/ExportHtmlword.php:509
-#: src/Plugins/Export/ExportOdt.php:644 src/Plugins/Export/ExportSql.php:1990
+#: src/Plugins/Export/ExportOdt.php:644 src/Plugins/Export/ExportSql.php:1996
 #: src/Plugins/Export/ExportTexytext.php:475
 msgid "Stand-in structure for view"
 msgstr "Дублююча структура для представлення"
@@ -17089,7 +17091,7 @@ msgid "Structure of table @TABLE@"
 msgstr "Структура таблиці @TABLE@"
 
 #: src/Plugins/Export/ExportLatex.php:123 src/Plugins/Export/ExportOdt.php:94
-#: src/Plugins/Export/ExportSql.php:278
+#: src/Plugins/Export/ExportSql.php:279
 msgid "Object creation options"
 msgstr "Параметри створення об'єкта"
 
@@ -17109,7 +17111,7 @@ msgid "Label key:"
 msgstr "Ключ підпису:"
 
 #: src/Plugins/Export/ExportLatex.php:149 src/Plugins/Export/ExportOdt.php:102
-#: src/Plugins/Export/ExportSql.php:203
+#: src/Plugins/Export/ExportSql.php:204
 msgid "Display foreign key relationships"
 msgstr "Відображати відносини зовнішнього ключа"
 
@@ -17118,7 +17120,7 @@ msgid "Display comments"
 msgstr "Відображення коментарів"
 
 #: src/Plugins/Export/ExportLatex.php:162 src/Plugins/Export/ExportOdt.php:115
-#: src/Plugins/Export/ExportSql.php:211
+#: src/Plugins/Export/ExportSql.php:212
 msgid "Display media types"
 msgstr "Відображати типи медіа"
 
@@ -17126,17 +17128,17 @@ msgstr "Відображати типи медіа"
 msgid "Put columns names in the first row:"
 msgstr "Помістити імена стовпців в перший рядок:"
 
-#: src/Plugins/Export/ExportLatex.php:231 src/Plugins/Export/ExportSql.php:762
+#: src/Plugins/Export/ExportLatex.php:231 src/Plugins/Export/ExportSql.php:763
 #: src/Plugins/Export/ExportXml.php:214
 msgid "Generation Time:"
 msgstr "Час створення:"
 
-#: src/Plugins/Export/ExportLatex.php:234 src/Plugins/Export/ExportSql.php:768
+#: src/Plugins/Export/ExportLatex.php:234 src/Plugins/Export/ExportSql.php:769
 #: src/Plugins/Export/ExportXml.php:217
 msgid "PHP Version:"
 msgstr "Версія PHP:"
 
-#: src/Plugins/Export/ExportLatex.php:320 src/Plugins/Export/ExportSql.php:2039
+#: src/Plugins/Export/ExportLatex.php:320 src/Plugins/Export/ExportSql.php:2045
 msgid "Data:"
 msgstr "Дані:"
 
@@ -17177,7 +17179,7 @@ msgstr "Перегляд структури"
 msgid "Stand in"
 msgstr "Вставити в"
 
-#: src/Plugins/Export/ExportSql.php:182
+#: src/Plugins/Export/ExportSql.php:183
 msgid ""
 "Display comments <i>(includes info such as export timestamp, PHP version, "
 "and server version)</i>"
@@ -17185,11 +17187,11 @@ msgstr ""
 "Відображати примітки <i>(містить таку інформацію як часова позначка "
 "експорту, версію PHP і версію сервера)</i>"
 
-#: src/Plugins/Export/ExportSql.php:189
+#: src/Plugins/Export/ExportSql.php:190
 msgid "Additional custom header comment (\\n splits lines):"
 msgstr "Додати до заголовку власний коментар (\\n для розділення рядків):"
 
-#: src/Plugins/Export/ExportSql.php:195
+#: src/Plugins/Export/ExportSql.php:196
 msgid ""
 "Include a timestamp of when databases were created, last updated, and last "
 "checked"
@@ -17197,37 +17199,37 @@ msgstr ""
 "Включити час створення бази даних, час останнього оновлення а також час "
 "останньої перевірки"
 
-#: src/Plugins/Export/ExportSql.php:248
+#: src/Plugins/Export/ExportSql.php:249
 msgid "Export metadata"
 msgstr "Експорт метаданих"
 
-#: src/Plugins/Export/ExportSql.php:286
+#: src/Plugins/Export/ExportSql.php:287
 msgid "Add statements:"
 msgstr "Додати оператори:"
 
-#: src/Plugins/Export/ExportSql.php:294 src/Plugins/Export/ExportSql.php:303
-#: src/Plugins/Export/ExportSql.php:320 src/Plugins/Export/ExportSql.php:329
-#: src/Plugins/Export/ExportSql.php:353 src/Plugins/Export/ExportSql.php:381
-#: src/Plugins/Export/ExportSql.php:390
+#: src/Plugins/Export/ExportSql.php:295 src/Plugins/Export/ExportSql.php:304
+#: src/Plugins/Export/ExportSql.php:321 src/Plugins/Export/ExportSql.php:330
+#: src/Plugins/Export/ExportSql.php:354 src/Plugins/Export/ExportSql.php:382
+#: src/Plugins/Export/ExportSql.php:391
 #, php-format
 msgid "Add %s statement"
 msgstr "Додати оператор %s"
 
-#: src/Plugins/Export/ExportSql.php:336
+#: src/Plugins/Export/ExportSql.php:337
 msgid "(less efficient as indexes will be generated during table creation)"
 msgstr "(менш ефективно, індекси будуть генеруватися в ході створення таблиці)"
 
-#: src/Plugins/Export/ExportSql.php:343
+#: src/Plugins/Export/ExportSql.php:344
 #, php-format
 msgid "%s value"
 msgstr "%s значення"
 
 #. l10n: Allow simplifying exported view syntax to only "CREATE VIEW"
-#: src/Plugins/Export/ExportSql.php:360
+#: src/Plugins/Export/ExportSql.php:361
 msgid "Use simple view export"
 msgstr "Використовуйте простий експорт подання"
 
-#: src/Plugins/Export/ExportSql.php:399
+#: src/Plugins/Export/ExportSql.php:400
 msgid ""
 "Enclose table and column names with backquotes <i>(Protects column and table "
 "names formed with special characters or keywords)</i>"
@@ -17235,35 +17237,35 @@ msgstr ""
 "Укласти імена таблиць і полів у зворотні лапки <i> (Захищає імена таблиць і "
 "полів, які містять спеціальні символи або зарезервовані слова)</i>"
 
-#: src/Plugins/Export/ExportSql.php:414
+#: src/Plugins/Export/ExportSql.php:415
 msgid "Data creation options"
 msgstr "Параметри створення даних"
 
-#: src/Plugins/Export/ExportSql.php:419 src/Plugins/Export/ExportSql.php:2112
+#: src/Plugins/Export/ExportSql.php:420 src/Plugins/Export/ExportSql.php:2118
 msgid "Truncate table before insert"
 msgstr "Очистити таблицю перед вставкою"
 
-#: src/Plugins/Export/ExportSql.php:426
+#: src/Plugins/Export/ExportSql.php:427
 msgid "Instead of <code>INSERT</code> statements, use:"
 msgstr "Замість виразів <code>INSERT</code> використовуйте:"
 
-#: src/Plugins/Export/ExportSql.php:432
+#: src/Plugins/Export/ExportSql.php:433
 msgid "<code>INSERT DELAYED</code> statements"
 msgstr "Вирази <code>INSERT DELAYED</code>"
 
-#: src/Plugins/Export/ExportSql.php:441 src/Plugins/Export/ExportSql.php:468
+#: src/Plugins/Export/ExportSql.php:442 src/Plugins/Export/ExportSql.php:469
 msgid "<code>INSERT IGNORE</code> statements"
 msgstr "Вирази <code>INSERT IGNORE</code>"
 
-#: src/Plugins/Export/ExportSql.php:452
+#: src/Plugins/Export/ExportSql.php:453
 msgid "Function to use when dumping data:"
 msgstr "Використовувати оператор при зберіганні даних:"
 
-#: src/Plugins/Export/ExportSql.php:463
+#: src/Plugins/Export/ExportSql.php:464
 msgid "Syntax to use when inserting data:"
 msgstr "Використовувати синтаксис при вставці даних:"
 
-#: src/Plugins/Export/ExportSql.php:473
+#: src/Plugins/Export/ExportSql.php:474
 msgid ""
 "include column names in every <code>INSERT</code> statement <br> &nbsp; "
 "&nbsp; &nbsp; Example: <code>INSERT INTO tbl_name (col_A,col_B,col_C) VALUES "
@@ -17273,7 +17275,7 @@ msgstr ""
 "&nbsp; Приклад: <code>INSERT INTO tbl_name (col_A,col_B,col_C) VALUES "
 "(1,2,3)</code>"
 
-#: src/Plugins/Export/ExportSql.php:478
+#: src/Plugins/Export/ExportSql.php:479
 msgid ""
 "insert multiple rows in every <code>INSERT</code> statement<br> &nbsp; "
 "&nbsp; &nbsp; Example: <code>INSERT INTO tbl_name VALUES (1,2,3), (4,5,6), "
@@ -17283,7 +17285,7 @@ msgstr ""
 "&nbsp; &nbsp; Приклад: <code>INSERT INTO tbl_name VALUES (1,2,3), (4,5,6), "
 "(7,8,9)</code>"
 
-#: src/Plugins/Export/ExportSql.php:483
+#: src/Plugins/Export/ExportSql.php:484
 msgid ""
 "both of the above<br> &nbsp; &nbsp; &nbsp; Example: <code>INSERT INTO "
 "tbl_name (col_A,col_B,col_C) VALUES (1,2,3), (4,5,6), (7,8,9)</code>"
@@ -17291,7 +17293,7 @@ msgstr ""
 "обидва вищезазначені<br>&nbsp;&nbsp;&nbsp; Наприклад: <code>INSERT INTO "
 "tbl_name (col_A,col_B,col_C) VALUES (1,2,3), (4,5,6), (7,8,9)</code>"
 
-#: src/Plugins/Export/ExportSql.php:488
+#: src/Plugins/Export/ExportSql.php:489
 msgid ""
 "neither of the above<br> &nbsp; &nbsp; &nbsp; Example: <code>INSERT INTO "
 "tbl_name VALUES (1,2,3)</code>"
@@ -17299,7 +17301,7 @@ msgstr ""
 "жоден з вище перерахованих <br> &nbsp; &nbsp; &nbsp; Example: <code>INSERT "
 "INTO tbl_name VALUES (1,2,3)</code>"
 
-#: src/Plugins/Export/ExportSql.php:507
+#: src/Plugins/Export/ExportSql.php:508
 msgid ""
 "Dump binary columns in hexadecimal notation <i>(for example, \"abc\" becomes "
 "0x616263)</i>"
@@ -17307,7 +17309,7 @@ msgstr ""
 "Збереження бінарних полів в шістнадцятковому вигляді <i>(наприклад, \"abc\" "
 "стане 0x616263)</i>"
 
-#: src/Plugins/Export/ExportSql.php:516
+#: src/Plugins/Export/ExportSql.php:517
 msgid ""
 "Dump TIMESTAMP columns in UTC <i>(enables TIMESTAMP columns to be dumped and "
 "reloaded between servers in different time zones)</i>"
@@ -17316,104 +17318,104 @@ msgstr ""
 "поля з типом TIMESTAMP між серверами, що знаходяться в різних часових "
 "зонах)</i>"
 
-#: src/Plugins/Export/ExportSql.php:593
+#: src/Plugins/Export/ExportSql.php:594
 msgid "It appears your database uses routines;"
 msgstr "Виявляється, ваша база даних використовує процедури;"
 
-#: src/Plugins/Export/ExportSql.php:596 src/Plugins/Export/ExportSql.php:1506
-#: src/Plugins/Export/ExportSql.php:1939
+#: src/Plugins/Export/ExportSql.php:597 src/Plugins/Export/ExportSql.php:1512
+#: src/Plugins/Export/ExportSql.php:1945
 msgid "alias export may not work reliably in all cases."
 msgstr "експорт псевдоніма не може надійно працювати у всіх випадках."
 
-#: src/Plugins/Export/ExportSql.php:1053
+#: src/Plugins/Export/ExportSql.php:1054
 msgid "Metadata"
 msgstr "Метадані"
 
-#: src/Plugins/Export/ExportSql.php:1114
+#: src/Plugins/Export/ExportSql.php:1119
 #, php-format
 msgid "Metadata for table %s"
 msgstr "Метадані таблиці %s"
 
-#: src/Plugins/Export/ExportSql.php:1121
+#: src/Plugins/Export/ExportSql.php:1126
 #, php-format
 msgid "Metadata for database %s"
 msgstr "Метадані бази даних %s"
 
-#: src/Plugins/Export/ExportSql.php:1420
+#: src/Plugins/Export/ExportSql.php:1426
 #, php-format
 msgid "Error reading structure for table %s:"
 msgstr "Помилка читання структури таблиці %s:"
 
-#: src/Plugins/Export/ExportSql.php:1503
+#: src/Plugins/Export/ExportSql.php:1509
 msgid "It appears your database uses views;"
 msgstr "Виявляється, ваша база даних використовує подання;"
 
-#: src/Plugins/Export/ExportSql.php:1647
+#: src/Plugins/Export/ExportSql.php:1653
 msgid "Constraints for dumped tables"
 msgstr "Обмеження зовнішнього ключа збережених таблиць"
 
-#: src/Plugins/Export/ExportSql.php:1648
+#: src/Plugins/Export/ExportSql.php:1654
 msgid "Constraints for table"
 msgstr "Обмеження зовнішнього ключа таблиці"
 
-#: src/Plugins/Export/ExportSql.php:1674
+#: src/Plugins/Export/ExportSql.php:1680
 msgid "Indexes for dumped tables"
 msgstr "Індекси збережених таблиць"
 
-#: src/Plugins/Export/ExportSql.php:1675
+#: src/Plugins/Export/ExportSql.php:1681
 msgid "Indexes for table"
 msgstr "Індекси таблиці"
 
-#: src/Plugins/Export/ExportSql.php:1698
+#: src/Plugins/Export/ExportSql.php:1704
 msgid "AUTO_INCREMENT for dumped tables"
 msgstr "AUTO_INCREMENT для збережених таблиць"
 
-#: src/Plugins/Export/ExportSql.php:1699
+#: src/Plugins/Export/ExportSql.php:1705
 msgid "AUTO_INCREMENT for table"
 msgstr "AUTO_INCREMENT для таблиці"
 
-#: src/Plugins/Export/ExportSql.php:1755
+#: src/Plugins/Export/ExportSql.php:1761
 msgid "MEDIA TYPES FOR TABLE"
 msgstr "МЕДІА-ТИПИ ТАБЛИЦІ"
 
-#: src/Plugins/Export/ExportSql.php:1785
+#: src/Plugins/Export/ExportSql.php:1791
 msgid "RELATIONSHIPS FOR TABLE"
 msgstr "ЗВ'ЯЗКИ ТАБЛИЦІ"
 
-#: src/Plugins/Export/ExportSql.php:1936
+#: src/Plugins/Export/ExportSql.php:1942
 msgid "It appears your table uses triggers;"
 msgstr "Схоже, таблиця використовує тригери;"
 
-#: src/Plugins/Export/ExportSql.php:1966
+#: src/Plugins/Export/ExportSql.php:1972
 #, php-format
 msgid "Structure for view %s exported as a table"
 msgstr "Структура для подання %s, експортованого як таблиця"
 
-#: src/Plugins/Export/ExportSql.php:1993
+#: src/Plugins/Export/ExportSql.php:1999
 msgid "(See below for the actual view)"
 msgstr "(Див. нижче для фактичного подання)"
 
-#: src/Plugins/Export/ExportSql.php:2050
+#: src/Plugins/Export/ExportSql.php:2056
 #, php-format
 msgid "Error reading data for table %s:"
 msgstr "Помилка читання даних таблиці %s:"
 
-#: src/Plugins/Export/ExportSql.php:2626
+#: src/Plugins/Export/ExportSql.php:2632
 #: src/Plugins/Schema/Pdf/PdfRelationSchema.php:566
 msgid "Creation:"
 msgstr "Створення:"
 
-#: src/Plugins/Export/ExportSql.php:2634
+#: src/Plugins/Export/ExportSql.php:2640
 #: src/Plugins/Schema/Pdf/PdfRelationSchema.php:577
 msgid "Last update:"
 msgstr "Останнє оновлення:"
 
-#: src/Plugins/Export/ExportSql.php:2642
+#: src/Plugins/Export/ExportSql.php:2648
 #: src/Plugins/Schema/Pdf/PdfRelationSchema.php:588
 msgid "Last check:"
 msgstr "Остання перевірка:"
 
-#: src/Plugins/Export/ExportSql.php:2663
+#: src/Plugins/Export/ExportSql.php:2669
 msgid ""
 "Database system or older MySQL server to maximize output compatibility with:"
 msgstr ""
@@ -18231,15 +18233,15 @@ msgstr "Показати статус підпорядкованого серв�
 msgid "Flush query cache"
 msgstr "Очистити кеш запитів"
 
-#: src/Server/Status/Processes.php:90
+#: src/Server/Status/Processes.php:100
 msgid "ID"
 msgstr "ID"
 
-#: src/Server/Status/Processes.php:94
+#: src/Server/Status/Processes.php:104
 msgid "Command"
 msgstr "Команда"
 
-#: src/Server/Status/Processes.php:100
+#: src/Server/Status/Processes.php:110
 msgid "Progress"
 msgstr "Прогрес"
 
@@ -18264,16 +18266,16 @@ msgstr ""
 msgid "No newer stable version is available"
 msgstr "Нова стабільна версія відсутня"
 
-#: src/Sql.php:445
+#: src/Sql.php:448
 #, php-format
 msgid "Using bookmark \"%s\" as default browse query."
 msgstr "Як стандартний запит на огляд даних використовується закладка \"%s\"."
 
-#: src/Sql.php:859
+#: src/Sql.php:882
 msgid "Showing as PHP code"
 msgstr "Показ у вигляді коду PHP"
 
-#: src/Sql.php:1213
+#: src/Sql.php:1236
 #, php-format
 msgid ""
 "Current selection does not contain a unique column. Grid edit, checkbox, "
@@ -18282,7 +18284,7 @@ msgstr ""
 "Поточний вибір не містить унікального стовпця. Використання функцій "
 "редагування сітки, прапоців, Редагувати, Копіювати та Видалити недоступні. %s"
 
-#: src/Sql.php:1227
+#: src/Sql.php:1250
 #, php-format
 msgid ""
 "Current selection does not contain a unique column. Grid edit, Edit, Copy "
@@ -18344,12 +18346,12 @@ msgstr "Не визначено частини індексу!"
 msgid "Problems with indexes of table `%s`"
 msgstr "Проблеми з індексами таблиці `%s`"
 
-#: src/Table/TableMover.php:294
+#: src/Table/TableMover.php:313
 #, php-format
 msgid "Source database `%s` was not found!"
 msgstr "Вихідна база даних '%s' не знайдена!"
 
-#: src/Table/TableMover.php:303
+#: src/Table/TableMover.php:322
 #, php-format
 msgid "Target database `%s` was not found!"
 msgstr "Цільова база даних \"%s\" не знайдена!"
@@ -18912,6 +18914,9 @@ msgstr "Помилка в ZIP-архіві:"
 #: src/ZipExtension.php:74
 msgid "No files found inside ZIP archive!"
 msgstr "Файлів всередині ZIP-архіву не знайдено!"
+
+#~ msgid "pages"
+#~ msgstr "сторінки"
 
 #~ msgid "Connection for controluser as defined in your configuration failed."
 #~ msgstr "Помилка при вказуванні з'єднання для controluser в конфігурації."

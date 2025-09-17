@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PhpMyAdmin\Tests;
+namespace PhpMyAdmin\Tests\Bookmarks;
 
 use PhpMyAdmin\Bookmarks\Bookmark;
 use PhpMyAdmin\Bookmarks\BookmarkRepository;
@@ -10,6 +10,7 @@ use PhpMyAdmin\Config;
 use PhpMyAdmin\ConfigStorage\Relation;
 use PhpMyAdmin\ConfigStorage\RelationParameters;
 use PhpMyAdmin\Dbal\DatabaseInterface;
+use PhpMyAdmin\Tests\AbstractTestCase;
 use PhpMyAdmin\Tests\Stubs\DbiDummy;
 use PHPUnit\Framework\Attributes\CoversClass;
 use ReflectionProperty;
@@ -40,9 +41,9 @@ class BookmarkTest extends AbstractTestCase
         $config->settings['ServerDefault'] = 1;
 
         $relationParameters = RelationParameters::fromArray([
-            'bookmarkwork' => true,
-            'db' => 'phpmyadmin',
-            'bookmark' => 'pma_bookmark',
+            RelationParameters::BOOKMARK_WORK => true,
+            RelationParameters::DATABASE => 'phpmyadmin',
+            RelationParameters::BOOKMARK => 'pma_bookmark',
         ]);
         (new ReflectionProperty(Relation::class, 'cache'))->setValue(null, $relationParameters);
     }

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phpMyAdmin 6.0.0-dev\n"
 "Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
-"POT-Creation-Date: 2025-07-27 00:32+0000\n"
+"POT-Creation-Date: 2025-09-14 00:27+0000\n"
 "PO-Revision-Date: 2025-06-20 21:02+0000\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <https://hosted.weblate.org/projects/phpmyadmin/master/"
@@ -143,7 +143,7 @@ msgstr "Primary"
 #: resources/templates/table/structure/display_structure.twig:150
 #: resources/templates/table/structure/display_structure.twig:156
 #: resources/templates/table/structure/display_structure.twig:287
-#: resources/templates/table/structure/display_structure.twig:466
+#: resources/templates/table/structure/display_structure.twig:474
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:7
 msgid "Unique"
 msgstr "بىردىنبىر"
@@ -184,7 +184,7 @@ msgid "first"
 msgstr "بىرىنچى"
 
 #: resources/templates/columns_definitions/column_attributes.twig:190
-#: resources/templates/table/structure/display_structure.twig:439
+#: resources/templates/table/structure/display_structure.twig:447
 #, php-format
 msgid "after %s"
 msgstr "%s دىن كېيىن"
@@ -202,7 +202,7 @@ msgstr "%s دىن كېيىن"
 #: resources/templates/table/zoom_search/index.twig:120
 #: src/Config/ConfigFile.php:554
 #: src/Controllers/JavaScriptMessagesController.php:218
-#: src/Display/Results.php:930 src/Plugins/Export/ExportSql.php:2039
+#: src/Display/Results.php:930 src/Plugins/Export/ExportSql.php:2045
 #: src/Plugins/Schema/SchemaPdf.php:96
 msgid "None"
 msgstr "يوق"
@@ -272,8 +272,8 @@ msgstr "سۆزلەم قوشۇش\\ئۆچۈرۈش"
 #: resources/templates/table/search/index.twig:195
 #: resources/templates/table/start_and_number_of_rows_fieldset.twig:15
 #: resources/templates/table/structure/display_structure.twig:332
-#: resources/templates/table/structure/display_structure.twig:443
-#: resources/templates/table/structure/display_structure.twig:561
+#: resources/templates/table/structure/display_structure.twig:451
+#: resources/templates/table/structure/display_structure.twig:569
 #: resources/templates/table/zoom_search/index.twig:152
 #: resources/templates/triggers/editor_form.twig:75
 #: resources/templates/view_create.twig:123 src/BrowseForeigners.php:180
@@ -486,7 +486,7 @@ msgstr "تاشقى ئاچقۇق قىممىتى"
 #: resources/templates/table/relation/foreign_key_row.twig:114
 #: resources/templates/table/relation/foreign_key_row.twig:124
 #: resources/templates/table/search/index.twig:38
-#: resources/templates/table/structure/display_structure.twig:468
+#: resources/templates/table/structure/display_structure.twig:476
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:6
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:9
 #: resources/templates/table/zoom_search/index.twig:36
@@ -573,7 +573,7 @@ msgstr "ماتور"
 #: resources/templates/database/structure/table_header.twig:46
 #: resources/templates/indexes.twig:25
 #: resources/templates/table/structure/display_partitions.twig:32
-#: resources/templates/table/structure/display_structure.twig:472
+#: resources/templates/table/structure/display_structure.twig:480
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:12
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:13
 msgid "Comment"
@@ -668,7 +668,7 @@ msgstr "ئىسمى"
 #: resources/templates/table/privileges/index.twig:21
 #: resources/templates/table/search/index.twig:39
 #: resources/templates/table/structure/display_structure.twig:22
-#: resources/templates/table/structure/display_structure.twig:465
+#: resources/templates/table/structure/display_structure.twig:473
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:7
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:6
 #: resources/templates/table/zoom_search/index.twig:37 src/InsertEdit.php:258
@@ -746,7 +746,7 @@ msgstr ""
 #: resources/templates/table/operations/index.twig:152
 #: resources/templates/table/search/index.twig:40
 #: resources/templates/table/structure/display_structure.twig:23
-#: resources/templates/table/structure/display_structure.twig:470
+#: resources/templates/table/structure/display_structure.twig:478
 #: resources/templates/table/structure/display_table_stats.twig:108
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:8
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:11
@@ -771,7 +771,7 @@ msgstr "خاسلىقى"
 #: resources/templates/indexes.twig:24
 #: resources/templates/table/insert/get_head_and_foot_of_insert_row_table.twig:13
 #: resources/templates/table/structure/display_structure.twig:25
-#: resources/templates/table/structure/display_structure.twig:471
+#: resources/templates/table/structure/display_structure.twig:479
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:9
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:12
 #: resources/templates/table/zoom_search/result_form.twig:34
@@ -946,7 +946,7 @@ msgstr "تاقالدى"
 #: resources/templates/table/delete/confirm.twig:30
 #: resources/templates/table/privileges/index.twig:73
 #: resources/templates/table/structure/display_structure.twig:80
-#: resources/templates/table/structure/display_structure.twig:521
+#: resources/templates/table/structure/display_structure.twig:529
 #: resources/templates/table/structure/drop_confirm.twig:19
 #: resources/templates/table/structure/primary.twig:19
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:33
@@ -987,7 +987,7 @@ msgstr "بولدى"
 #: resources/templates/table/delete/confirm.twig:31
 #: resources/templates/table/privileges/index.twig:73
 #: resources/templates/table/structure/display_structure.twig:80
-#: resources/templates/table/structure/display_structure.twig:521
+#: resources/templates/table/structure/display_structure.twig:529
 #: resources/templates/table/structure/drop_confirm.twig:20
 #: resources/templates/table/structure/primary.twig:20
 #: resources/templates/table/tracking/structure_snapshot_columns.twig:33
@@ -1059,7 +1059,7 @@ msgstr "تەكشۈرۈش"
 #: resources/templates/server/variables/index.twig:41
 #: resources/templates/server/variables/index.twig:44
 #: resources/templates/setup/home/index.twig:64
-#: resources/templates/table/structure/display_structure.twig:486
+#: resources/templates/table/structure/display_structure.twig:494
 #: resources/templates/triggers/row.twig:28
 #: resources/templates/triggers/row.twig:31 src/Config/Descriptions.php:926
 #: src/ConfigStorage/UserGroups.php:112
@@ -1105,7 +1105,7 @@ msgstr "ئۆچۈرۈش"
 #: src/Config/Descriptions.php:934 src/Plugins/Export/ExportHtmlword.php:146
 #: src/Plugins/Export/ExportOdt.php:191
 #: src/Plugins/Export/ExportTexytext.php:131 src/Server/Privileges.php:1567
-#: src/Server/Privileges.php:1569 src/Server/Status/Processes.php:93
+#: src/Server/Privileges.php:1569 src/Server/Status/Processes.php:103
 msgid "Database"
 msgstr "ساندان"
 
@@ -1144,7 +1144,7 @@ msgstr "SQL دەلىللەشتىن ئاتلاش"
 #: src/Plugins/Export/ExportMediawiki.php:48
 #: src/Plugins/Export/ExportOds.php:58 src/Plugins/Export/ExportOdt.php:69
 #: src/Plugins/Export/ExportPdf.php:67 src/Plugins/Export/ExportPhparray.php:45
-#: src/Plugins/Export/ExportSql.php:167
+#: src/Plugins/Export/ExportSql.php:168
 #: src/Plugins/Export/ExportTexytext.php:55 src/Plugins/Export/ExportXml.php:73
 #: src/Plugins/Export/ExportYaml.php:44 src/Plugins/Import/ImportCsv.php:87
 #: src/Plugins/Import/ImportLdi.php:62
@@ -1286,7 +1286,7 @@ msgstr "ئېلىنغان ۋاقىت:"
 #: resources/templates/console/display.twig:133
 #: resources/templates/server/status/processes/index.twig:19
 #: resources/templates/server/status/variables/index.twig:42
-#: src/Config/Descriptions.php:928 src/Export/Export.php:1076
+#: src/Config/Descriptions.php:928 src/Export/Export.php:1077
 #: src/Html/Generator.php:576
 msgid "Refresh"
 msgstr "يېڭلاش"
@@ -1431,7 +1431,7 @@ msgid "Search this table"
 msgstr "سانداندىن ئىزدەش"
 
 #: resources/templates/database/central_columns/main.twig:184
-#: resources/templates/table/structure/display_structure.twig:424
+#: resources/templates/table/structure/display_structure.twig:432
 msgid "Add column"
 msgstr "ستون قوشۇڭ"
 
@@ -1467,7 +1467,7 @@ msgstr "بىر چىكىپ تاللاڭ"
 #: resources/templates/table/privileges/index.twig:24
 #: resources/templates/table/structure/display_partitions.twig:34
 #: resources/templates/table/structure/display_structure.twig:34
-#: resources/templates/table/structure/display_structure.twig:463
+#: resources/templates/table/structure/display_structure.twig:471
 #: resources/templates/table/tracking/main.twig:32
 #: resources/templates/table/tracking/report_table.twig:8
 msgid "Action"
@@ -1546,7 +1546,7 @@ msgstr "ئۇلانما"
 
 #: resources/templates/database/data_dictionary/index.twig:68
 #: resources/templates/indexes.twig:3
-#: resources/templates/table/structure/display_structure.twig:450
+#: resources/templates/table/structure/display_structure.twig:458
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:1
 #: src/Controllers/Server/DatabasesController.php:261
 #: src/Navigation/Nodes/NodeIndexContainer.php:23
@@ -1556,7 +1556,7 @@ msgstr "تېزىسلار"
 
 #: resources/templates/database/data_dictionary/index.twig:73
 #: resources/templates/indexes.twig:17
-#: resources/templates/table/structure/display_structure.twig:464
+#: resources/templates/table/structure/display_structure.twig:472
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:5
 #: src/BrowseForeigners.php:195 src/BrowseForeigners.php:199
 msgid "Keyname"
@@ -1564,21 +1564,21 @@ msgstr "قىممەت ئىسمى"
 
 #: resources/templates/database/data_dictionary/index.twig:76
 #: resources/templates/indexes.twig:20
-#: resources/templates/table/structure/display_structure.twig:467
+#: resources/templates/table/structure/display_structure.twig:475
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:8
 msgid "Packed"
 msgstr "ئىخچام"
 
 #: resources/templates/database/data_dictionary/index.twig:78
 #: resources/templates/indexes.twig:22
-#: resources/templates/table/structure/display_structure.twig:469
+#: resources/templates/table/structure/display_structure.twig:477
 #: resources/templates/table/tracking/structure_snapshot_indexes.twig:10
 msgid "Cardinality"
 msgstr "تۈپ سان"
 
 #: resources/templates/database/data_dictionary/index.twig:117
 #: resources/templates/indexes.twig:93
-#: resources/templates/table/structure/display_structure.twig:548
+#: resources/templates/table/structure/display_structure.twig:556
 msgid "No index defined!"
 msgstr "index قىممىتى بەلگىلەنمىگەن!"
 
@@ -1942,7 +1942,7 @@ msgstr "قىممەت ئىسمى"
 #: resources/templates/table/tracking/main.twig:31
 #: src/Config/ConfigFile.php:578
 #: src/Controllers/JavaScriptMessagesController.php:275 src/Menu.php:446
-#: src/Server/Status/Processes.php:96 src/Util.php:1359
+#: src/Server/Status/Processes.php:106 src/Util.php:1359
 msgid "Status"
 msgstr "ھالەت"
 
@@ -2014,7 +2014,7 @@ msgstr "Definer"
 #: resources/templates/database/events/index.twig:3 src/Menu.php:377
 #: src/Navigation/Nodes/NodeEventContainer.php:22
 #: src/Navigation/Nodes/NodeEventContainer.php:24
-#: src/Plugins/Export/ExportSql.php:997 src/Plugins/Export/ExportXml.php:97
+#: src/Plugins/Export/ExportSql.php:998 src/Plugins/Export/ExportXml.php:97
 #: src/Util.php:1381
 msgid "Events"
 msgstr "ھادىسە"
@@ -2103,11 +2103,11 @@ msgstr "چىقىرىش"
 #: resources/templates/table/structure/display_partitions.twig:146
 #: resources/templates/table/structure/display_structure.twig:120
 #: resources/templates/table/structure/display_structure.twig:279
-#: resources/templates/table/structure/display_structure.twig:514
+#: resources/templates/table/structure/display_structure.twig:522
 #: resources/templates/triggers/list.twig:20
 #: resources/templates/triggers/list.twig:21
 #: resources/templates/triggers/row.twig:52
-#: resources/templates/triggers/row.twig:58 src/Operations.php:536
+#: resources/templates/triggers/row.twig:58 src/Operations.php:543
 msgid "Drop"
 msgstr "ئۆچۈرۈش"
 
@@ -2935,6 +2935,7 @@ msgid "Copy table"
 msgstr "%s جەدۋەل"
 
 #: resources/templates/database/structure/check_all_tables.twig:11
+#: resources/templates/table/structure/display_structure.twig:417
 #, fuzzy
 #| msgid "Show color"
 msgid "Show create"
@@ -3047,7 +3048,7 @@ msgstr ""
 
 #: resources/templates/database/structure/copy_form.twig:5
 #: resources/templates/menu/main.twig:16 src/Plugins/Export/ExportLatex.php:260
-#: src/Plugins/Export/ExportSql.php:928 src/Plugins/Export/ExportXml.php:367
+#: src/Plugins/Export/ExportSql.php:929 src/Plugins/Export/ExportXml.php:367
 #: src/Plugins/Export/Helpers/Pdf.php:177
 #, fuzzy
 #| msgid "Database"
@@ -3464,7 +3465,7 @@ msgstr "سۈرۈشتۈرۈش نەتىجىسى مەشغۇلاتى"
 
 #: resources/templates/display/results/table.twig:353
 #: src/Controllers/JavaScriptMessagesController.php:466
-#: src/Export/Export.php:1095
+#: src/Export/Export.php:1096
 msgid "Copy to clipboard"
 msgstr "چاپلاش تاختىسىغا كۆچۈرۈڭ"
 
@@ -3986,7 +3987,7 @@ msgid "Server connection:"
 msgstr "كىرگۈزگەن ھۆججەت شەكلى"
 
 #: resources/templates/home/index.twig:198
-#: src/Plugins/Export/ExportLatex.php:233 src/Plugins/Export/ExportSql.php:766
+#: src/Plugins/Export/ExportLatex.php:233 src/Plugins/Export/ExportSql.php:767
 #: src/Plugins/Export/ExportXml.php:216
 #, fuzzy
 #| msgid "Server version"
@@ -4091,7 +4092,7 @@ msgstr "ئېلىش"
 #: resources/templates/import_status.twig:2
 #: resources/templates/user_password.twig:2
 #: src/Controllers/JavaScriptMessagesController.php:411
-#: src/Export/Export.php:1118 src/Html/Generator.php:855
+#: src/Export/Export.php:1119 src/Html/Generator.php:855
 #: src/Plugins/Schema/ExportRelationSchema.php:266
 msgid "Back"
 msgstr "قايتىش"
@@ -4208,19 +4209,19 @@ msgid "Other options"
 msgstr "ئىشلەملەر"
 
 #: resources/templates/indexes.twig:40
-#: resources/templates/table/structure/display_structure.twig:495
+#: resources/templates/table/structure/display_structure.twig:503
 #, fuzzy
 #| msgid "Rename database to"
 msgid "Rename"
 msgstr "ئۆزگەرتىلگەن ساندان ئىسمى"
 
 #: resources/templates/indexes.twig:46
-#: resources/templates/table/structure/display_structure.twig:501
+#: resources/templates/table/structure/display_structure.twig:509
 msgid "The primary key has been dropped."
 msgstr "ئاساسىي قىممەت ئۆچۈرۈلدى"
 
 #: resources/templates/indexes.twig:51
-#: resources/templates/table/structure/display_structure.twig:506
+#: resources/templates/table/structure/display_structure.twig:514
 #, php-format
 msgid "Index %s has been dropped."
 msgstr "ئۆچۈرۈلگەن تېزىسلار %s."
@@ -5118,8 +5119,8 @@ msgid "Check privileges"
 msgstr "ھۇقۇقى"
 
 #: resources/templates/server/databases/index.twig:249
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:34
 #: src/Controllers/JavaScriptMessagesController.php:293
-#: src/Engines/Innodb.php:133
 #, fuzzy
 #| msgid "Total"
 msgid "Total:"
@@ -5164,6 +5165,72 @@ msgstr "ساقلاش ماتورى"
 #: src/BrowseForeigners.php:196 src/BrowseForeigners.php:198
 msgid "Description"
 msgstr "ئىزاھات"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:2
+#, fuzzy
+#| msgid "Buffer Pool Usage"
+msgid "Buffer pool usage"
+msgstr "Buffer Pool Usage"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:5
+msgid "Free pages"
+msgstr "ئاق(قۇرۇق)بەت"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:9
+msgid "Dirty pages"
+msgstr "كىرەكسىز(مەينەت)بەت"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:13
+msgid "Pages containing data"
+msgstr "قۇرۇق ئەمەس بەت"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:17
+msgid "Pages to be flushed"
+msgstr "يىڭىلايدىغان بەت"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:21
+msgid "Busy pages"
+msgstr "يۈك بەت"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:26
+msgid "Latched pages"
+msgstr "قۇلۇپلانغان بەت"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:34
+#, fuzzy, php-format
+#| msgid "Busy pages"
+msgid "%s pages"
+msgstr "يۈك بەت"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:41
+#, fuzzy
+#| msgid "Buffer Pool Activity"
+msgid "Buffer pool activity"
+msgstr "Buffer Pool پائالىيىتى"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:44
+msgid "Read requests"
+msgstr "ئۇقۇش تەلىپى"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:48
+msgid "Write requests"
+msgstr "يېزىش تەلىپى"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:52
+msgid "Read misses"
+msgstr "سېغىنغانلارنى ئوقۇڭ"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:56
+msgid "Write waits"
+msgstr "يېزىشنى كۈتۈۋاتقان سانى"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:60
+msgid "Read misses in %"
+msgstr "% دىكى خاتالىقلارنى ئوقۇڭ"
+
+#: resources/templates/server/engines/_innodb_buffer_pool.twig:66
+msgid "Write waits in %"
+msgstr "ساقلاشنى ساقلاش%"
 
 #: resources/templates/server/engines/show.twig:18
 #: resources/templates/server/engines/show.twig:21
@@ -5993,7 +6060,7 @@ msgstr ""
 
 #: resources/templates/server/replication/change_primary.twig:25
 #: resources/templates/server/replication/primary_add_replica_user.twig:29
-#: src/Plugins/Export/ExportLatex.php:225 src/Plugins/Export/ExportSql.php:755
+#: src/Plugins/Export/ExportLatex.php:225 src/Plugins/Export/ExportSql.php:756
 #: src/Plugins/Export/ExportXml.php:207
 #, fuzzy
 #| msgid "Host"
@@ -6035,7 +6102,7 @@ msgstr "تېكىست مەيدانىنى ئىشلىتىڭ:"
 #: resources/templates/server/replication/primary_add_replica_user.twig:32
 #: resources/templates/server/replication/primary_add_replica_user.twig:43
 #: resources/templates/server/replication/primary_replication.twig:25
-#: src/Server/Status/Processes.php:92
+#: src/Server/Status/Processes.php:102
 msgid "Host"
 msgstr "ئاساسىي ماشىنا"
 
@@ -6940,7 +7007,7 @@ msgstr "بۇ ئىشلەتكۈچى توپىغا تەۋە ھېچقانداق ئى�
 
 #: resources/templates/server/user_groups/user_listings.twig:9
 #: src/Controllers/Server/PrivilegesController.php:432
-#: src/Server/Status/Processes.php:91
+#: src/Server/Status/Processes.php:101
 msgid "User"
 msgstr "ئىشلەتكۈچى"
 
@@ -7111,7 +7178,7 @@ msgstr "شەنبە"
 #: src/Plugins/Export/ExportHtmlword.php:440
 #: src/Plugins/Export/ExportOdt.php:559
 #: src/Plugins/Export/ExportTexytext.php:425
-#: src/Plugins/Export/Helpers/Pdf.php:333 src/Server/Status/Processes.php:95
+#: src/Plugins/Export/Helpers/Pdf.php:333 src/Server/Status/Processes.php:105
 msgid "Time"
 msgstr "ۋاقىت"
 
@@ -7165,7 +7232,7 @@ msgstr "ئاساسىي مەزمۇن"
 #: src/Controllers/Table/Partition/RepairController.php:49
 #: src/Controllers/Table/Partition/TruncateController.php:50
 #: src/Controllers/Table/RelationController.php:143
-#: src/Database/Routines.php:1019 src/Display/Results.php:3012
+#: src/Database/Routines.php:1019 src/Display/Results.php:3011
 #: src/Message.php:122
 #, fuzzy
 #| msgid "Your SQL query has been executed successfully."
@@ -7173,7 +7240,7 @@ msgid "Your SQL query has been executed successfully."
 msgstr "SQL بۇيرىقى غەلبىلىك بىجىرىلدى"
 
 #: resources/templates/sql/query.twig:20 src/Server/Status/Data.php:113
-#: src/Server/Status/Processes.php:103
+#: src/Server/Status/Processes.php:113
 msgid "SQL query"
 msgstr "SQL سورىقى"
 
@@ -7962,7 +8029,7 @@ msgid "Start row:"
 msgstr "تۈرلەش"
 
 #: resources/templates/table/structure/display_partitions.twig:3
-#: resources/templates/table/structure/display_structure.twig:586
+#: resources/templates/table/structure/display_structure.twig:594
 #, fuzzy
 #| msgid "Relations"
 msgid "Partitions"
@@ -7995,32 +8062,32 @@ msgid "Index length"
 msgstr "تېزىسلار"
 
 #: resources/templates/table/structure/display_partitions.twig:85
-#: src/Operations.php:519
+#: src/Operations.php:526
 msgid "Analyze"
 msgstr "تەھلىل قىلىڭ"
 
 #: resources/templates/table/structure/display_partitions.twig:95
-#: src/Operations.php:520
+#: src/Operations.php:527
 msgid "Check"
 msgstr "تەكشۈرۈڭ"
 
 #: resources/templates/table/structure/display_partitions.twig:105
-#: src/Operations.php:521
+#: src/Operations.php:528
 msgid "Optimize"
 msgstr "ئەلالاشتۇرۇش"
 
 #: resources/templates/table/structure/display_partitions.twig:115
-#: src/Operations.php:522
+#: src/Operations.php:529
 msgid "Rebuild"
 msgstr "قايتا قۇرۇش"
 
 #: resources/templates/table/structure/display_partitions.twig:125
-#: src/Operations.php:523
+#: src/Operations.php:530
 msgid "Repair"
 msgstr "رېمونت قىلىش"
 
 #: resources/templates/table/structure/display_partitions.twig:135
-#: src/Operations.php:524
+#: src/Operations.php:531
 msgid "Truncate"
 msgstr "Truncate"
 
@@ -8118,24 +8185,24 @@ msgstr "جەدۋەل قۇرۇلمىسىنى ئوتتۇرىغا قويۇڭ"
 msgid "Normalize"
 msgstr "نورماللاشتۇرۇش"
 
-#: resources/templates/table/structure/display_structure.twig:415
+#: resources/templates/table/structure/display_structure.twig:423
 #, fuzzy
 #| msgid "Track table"
 msgid "Track view"
 msgstr "جەدۋەل ئىزلاش"
 
-#: resources/templates/table/structure/display_structure.twig:429
+#: resources/templates/table/structure/display_structure.twig:437
 #, fuzzy, php-format
 msgid "Add %s column(s)"
 msgstr "% S ستون (لار) نى قوشۇڭ"
 
-#: resources/templates/table/structure/display_structure.twig:434
+#: resources/templates/table/structure/display_structure.twig:442
 #, fuzzy
 #| msgid "Show dimension of tables"
 msgid "at beginning of table"
 msgstr "جەدېۋەلنىڭ چوڭ-كىچىكلىكىنى كۆرسىتىش"
 
-#: resources/templates/table/structure/display_structure.twig:558
+#: resources/templates/table/structure/display_structure.twig:566
 #, fuzzy, php-format
 msgid "Create an index on %s columns"
 msgstr "% S ستوندا كۆرسەتكۈچ ھاسىل قىلىڭ"
@@ -8320,7 +8387,7 @@ msgstr "قوزغىتىش% s"
 #: src/Navigation/Nodes/NodeTriggerContainer.php:25
 #: src/Plugins/Export/ExportHtmlword.php:495
 #: src/Plugins/Export/ExportOdt.php:626 src/Plugins/Export/ExportPdf.php:235
-#: src/Plugins/Export/ExportSql.php:1907
+#: src/Plugins/Export/ExportSql.php:1913
 #: src/Plugins/Export/ExportTexytext.php:465
 #: src/Plugins/Export/ExportXml.php:117 src/Util.php:1382 src/Util.php:1398
 msgid "Triggers"
@@ -8382,19 +8449,19 @@ msgstr "«% S» قائىدىسىنى ئىجرا قىلىش سىنىقى مەغل
 msgid "Failed formatting string for rule '%s'."
 msgstr "'% S' قائىدىسىدە فورماتلاش مەغلۇب بولدى."
 
-#: src/Advisory/Advisor.php:386
+#: src/Advisory/Advisor.php:401
 msgid "per second"
 msgstr "سېكۇنت"
 
-#: src/Advisory/Advisor.php:389
+#: src/Advisory/Advisor.php:404
 msgid "per minute"
 msgstr "ھەر مىنۇتتا"
 
-#: src/Advisory/Advisor.php:392
+#: src/Advisory/Advisor.php:407
 msgid "per hour"
 msgstr "سائىتىگە"
 
-#: src/Advisory/Advisor.php:395
+#: src/Advisory/Advisor.php:410
 msgid "per day"
 msgstr "كۈنىگە"
 
@@ -10210,7 +10277,7 @@ msgstr "تاقالدى"
 #: src/Plugins/Export/ExportLatex.php:113
 #: src/Plugins/Export/ExportMediawiki.php:68
 #: src/Plugins/Export/ExportOdt.php:84 src/Plugins/Export/ExportPdf.php:92
-#: src/Plugins/Export/ExportSql.php:266
+#: src/Plugins/Export/ExportSql.php:267
 #: src/Plugins/Export/ExportTexytext.php:70
 msgid "structure"
 msgstr "قۇرۇلما"
@@ -10221,7 +10288,7 @@ msgstr "قۇرۇلما"
 #: src/Plugins/Export/ExportLatex.php:113
 #: src/Plugins/Export/ExportMediawiki.php:68
 #: src/Plugins/Export/ExportOdt.php:84 src/Plugins/Export/ExportPdf.php:92
-#: src/Plugins/Export/ExportSql.php:266
+#: src/Plugins/Export/ExportSql.php:267
 #: src/Plugins/Export/ExportTexytext.php:70
 msgid "data"
 msgstr "data"
@@ -10232,7 +10299,7 @@ msgstr "data"
 #: src/Plugins/Export/ExportLatex.php:113
 #: src/Plugins/Export/ExportMediawiki.php:68
 #: src/Plugins/Export/ExportOdt.php:84 src/Plugins/Export/ExportPdf.php:92
-#: src/Plugins/Export/ExportSql.php:266
+#: src/Plugins/Export/ExportSql.php:267
 #: src/Plugins/Export/ExportTexytext.php:70
 #, fuzzy
 #| msgid "Structure and data"
@@ -10436,7 +10503,7 @@ msgstr ""
 "چەكلىمىگە ئۇچرىمايدۇ)."
 
 #: src/Config/Descriptions.php:171 src/Config/Descriptions.php:708
-#: src/Plugins/Export/ExportSql.php:366
+#: src/Plugins/Export/ExportSql.php:367
 msgid "Exclude definition of current user"
 msgstr "نۆۋەتتىكى ئىشلەتكۈچىنىڭ ئېنىقلىمىسىنى چىقىرىۋېتىڭ"
 
@@ -11824,7 +11891,7 @@ msgstr "جەدۋەل ئىسمى قېلىپى"
 #: src/Plugins/Export/ExportMediawiki.php:58
 #: src/Plugins/Export/ExportMediawiki.php:64
 #: src/Plugins/Export/ExportOdt.php:79 src/Plugins/Export/ExportPdf.php:88
-#: src/Plugins/Export/ExportSql.php:262
+#: src/Plugins/Export/ExportSql.php:263
 #: src/Plugins/Export/ExportTexytext.php:65
 #, fuzzy
 #| msgid "%s table"
@@ -11897,11 +11964,11 @@ msgstr "قۇرۇش / يېڭىلاش / چېسلانى تەكشۈرۈش"
 msgid "Use delayed inserts"
 msgstr "كېچىكتۈرۈلگەن قىستۇرمىلارنى ئىشلىتىڭ"
 
-#: src/Config/Descriptions.php:692 src/Plugins/Export/ExportSql.php:231
+#: src/Config/Descriptions.php:692 src/Plugins/Export/ExportSql.php:232
 msgid "Disable foreign key checks"
 msgstr "چەتئەل ئاچقۇچلۇق تەكشۈرۈشنى چەكلەڭ"
 
-#: src/Config/Descriptions.php:693 src/Plugins/Export/ExportSql.php:241
+#: src/Config/Descriptions.php:693 src/Plugins/Export/ExportSql.php:242
 #, fuzzy
 #| msgid "Create table on database %s"
 msgid "Export views as tables"
@@ -11921,7 +11988,7 @@ msgid ""
 "creation)"
 msgstr "ئەگەر يوق بولسا قوشۇڭ (جەدۋەل قۇرۇش جەريانىدا كۆرسەتكۈچ ھاسىل بولىدۇ)."
 
-#: src/Config/Descriptions.php:709 src/Plugins/Export/ExportSql.php:372
+#: src/Config/Descriptions.php:709 src/Plugins/Export/ExportSql.php:373
 #, fuzzy, php-format
 #| msgid "Use this value"
 msgid "%s view"
@@ -11935,7 +12002,7 @@ msgstr "قىستۇرمىغا سەل قاراڭ"
 msgid "Syntax to use when inserting data"
 msgstr "سانلىق مەلۇمات قىستۇرغاندا ئىشلىتىدىغان گرامماتىكىسى"
 
-#: src/Config/Descriptions.php:713 src/Plugins/Export/ExportSql.php:499
+#: src/Config/Descriptions.php:713 src/Plugins/Export/ExportSql.php:500
 msgid "Maximal length of created query"
 msgstr "قۇرۇلغان سوئالنىڭ ئەڭ ئۇزۇن ئۇزۇنلۇقى"
 
@@ -11945,7 +12012,7 @@ msgstr "قۇرۇلغان سوئالنىڭ ئەڭ ئۇزۇن ئۇزۇنلۇقى"
 msgid "Export type"
 msgstr "چىقىرىش"
 
-#: src/Config/Descriptions.php:719 src/Plugins/Export/ExportSql.php:221
+#: src/Config/Descriptions.php:719 src/Plugins/Export/ExportSql.php:222
 msgid "Enclose export in a transaction"
 msgstr "سودىدا ئېكسپورتنى ئۆز ئىچىگە ئالىدۇ"
 
@@ -12937,12 +13004,12 @@ msgid "Cannot save settings, submitted configuration form contains errors!"
 msgstr ""
 "تەڭشەكلەرنى ساقلىغىلى بولمايدۇ ، يوللانغان سەپلىمە جەدۋىلىدە خاتالىق بار!"
 
-#: src/Config.php:433
+#: src/Config.php:434
 #, fuzzy, php-format
 msgid "Existing configuration file (%s) is not readable."
 msgstr "مەۋجۇت سەپلىمە ھۆججىتىنى (% s) ئوقۇشقا بولمايدۇ."
 
-#: src/Config.php:466
+#: src/Config.php:467
 msgid "Wrong permissions on configuration file, should not be world writable!"
 msgstr "سەپلىمە ھۆججەتتىكى خاتا ئىجازەتلەر ، دۇنيانى يازغىلى بولمايدۇ!"
 
@@ -13090,11 +13157,11 @@ msgstr ""
 msgid "Server %d"
 msgstr "مۇلازىمىتېر"
 
-#: src/ConfigStorage/Relation.php:1116
+#: src/ConfigStorage/Relation.php:1112
 msgid "no description"
 msgstr "چۈشەندۈرۈش يوق"
 
-#: src/ConfigStorage/Relation.php:1322
+#: src/ConfigStorage/Relation.php:1318
 #, fuzzy, php-format
 msgid ""
 "You do not have necessary privileges to create a database named '%s'. You "
@@ -13511,14 +13578,14 @@ msgid "Success!"
 msgstr "مۇۋەپپەقىيەت!"
 
 #: src/Controllers/Database/StructureController.php:567
-#: src/Display/Results.php:3285
+#: src/Display/Results.php:3292
 #, php-format
 msgid ""
 "This view has at least this number of rows. Please refer to "
 "%sdocumentation%s."
 msgstr "بۇ كۆرسەتمە كامىدا ئىگە بولغان سەپ، %sھۆججەت%s."
 
-#: src/Controllers/Database/StructureController.php:734
+#: src/Controllers/Database/StructureController.php:737
 msgid "unknown"
 msgstr "نامەلۇم"
 
@@ -13578,7 +13645,7 @@ msgstr "مەسىلىگە يولۇقسىڭىز كەمتۈك دوكلاتىنى ق
 msgid "You may want to refresh the page."
 msgstr "بۇ بەتنى يېڭىلاشنى ئويلىشىڭىز مۇمكىن."
 
-#: src/Controllers/Export/ExportController.php:119 src/Export/Export.php:1056
+#: src/Controllers/Export/ExportController.php:119 src/Export/Export.php:1057
 msgid "Bad type!"
 msgstr "بوزۇق تىپ!"
 
@@ -13780,7 +13847,7 @@ msgstr ""
 msgid "\"DROP DATABASE\" statements are disabled."
 msgstr "ساندان ئۆچۈرۈش بۇيرۇقى (\"DROP DATABASE\") چەكلەنگەن."
 
-#: src/Controllers/Import/ImportController.php:680 src/Sql.php:879
+#: src/Controllers/Import/ImportController.php:680 src/Sql.php:902
 msgid "[ROLLBACK occurred.]"
 msgstr "[ROLLBACK يۈز بەردى.]"
 
@@ -13789,7 +13856,7 @@ msgid "Only single-table UPDATE and DELETE queries can be simulated."
 msgstr ""
 "پەقەت بىرلا جەدۋەلدىكى UPDATE ۋە DELETE سوئاللىرىنى تەقلىد قىلغىلى بولىدۇ."
 
-#: src/Controllers/Import/StatusController.php:65
+#: src/Controllers/Import/StatusController.php:72
 msgid "Could not load the progress of the import."
 msgstr "ئىمپورتنىڭ ئىلگىرىلىشىنى يۈكلىيەلمىدى."
 
@@ -16846,7 +16913,7 @@ msgstr "خاتا سانلىق مەلۇمات"
 msgid "Wrong data or no validation for %s"
 msgstr "خاتا سانلىق مەلۇمات ياكى% s ئۈچۈن دەلىللەش يوق"
 
-#: src/Controllers/Sql/SqlController.php:213 src/Sql.php:1055
+#: src/Controllers/Sql/SqlController.php:213 src/Sql.php:1078
 #, fuzzy, php-format
 #| msgid "Bookmark %s created"
 msgid "Bookmark %s has been created."
@@ -16934,7 +17001,7 @@ msgstr "ئىزلانغان جەدۋەل"
 
 #: src/Controllers/Table/GetFieldController.php:87
 #: src/Database/Routines.php:1036 src/Import/Import.php:135
-#: src/InsertEdit.php:159 src/Sql.php:865
+#: src/InsertEdit.php:159 src/Sql.php:888
 msgid "MySQL returned an empty result set (i.e. zero rows)."
 msgstr "MySQL قۇرۇق نەتىجە توپلىمىنى قايتۇردى (يەنى نۆل قۇر)."
 
@@ -17346,7 +17413,7 @@ msgid "%d row affected by the last statement inside the procedure."
 msgid_plural "%d rows affected by the last statement inside the procedure."
 msgstr[0] ""
 
-#: src/Dbal/DatabaseInterface.php:1054
+#: src/Dbal/DatabaseInterface.php:1052
 #, fuzzy, php-format
 msgid ""
 "Unable to use timezone \"%1$s\" for server %2$d. Please check your "
@@ -17358,7 +17425,7 @@ msgstr ""
 "تەڭشىكىڭىزنى تەكشۈرۈڭ. phpMyAdmin ھازىر ساندان مۇلازىمېتىرىنىڭ سۈكۈتتىكى "
 "ۋاقىت رايونىنى ئىشلىتىۋاتىدۇ."
 
-#: src/Dbal/DatabaseInterface.php:1095
+#: src/Dbal/DatabaseInterface.php:1093
 #, fuzzy
 #| msgid "Could not load default configuration from: %1$s"
 msgid "Failed to set configured collation connection!"
@@ -17379,28 +17446,28 @@ msgstr ""
 msgid "The row has been deleted."
 msgstr "خەتكۈچ ئۆچۈرۈلدى."
 
-#: src/Display/Results.php:3294
+#: src/Display/Results.php:3016 src/Display/Results.php:3333 src/Sql.php:894
+#, fuzzy, php-format
+msgid "Query took %01.4f seconds."
+msgstr "سۈرۈشتۈرۈش% 01.4f سېكۇنت."
+
+#: src/Display/Results.php:3301
 #, fuzzy, php-format
 msgid "Showing rows %1s - %2s"
 msgstr "قۇرلارنى كۆرسىتىش% 1s -% 2s"
 
-#: src/Display/Results.php:3308
+#: src/Display/Results.php:3315
 #, php-format
 msgid "%1$s total, %2$s in query"
 msgstr ""
 
-#: src/Display/Results.php:3313
+#: src/Display/Results.php:3320
 #, fuzzy, php-format
 #| msgid "total"
 msgid "%s total"
 msgstr "ئۇمۇمىي"
 
-#: src/Display/Results.php:3326 src/Sql.php:871
-#, fuzzy, php-format
-msgid "Query took %01.4f seconds."
-msgstr "سۈرۈشتۈرۈش% 01.4f سېكۇنت."
-
-#: src/Display/Results.php:3622
+#: src/Display/Results.php:3629
 #, fuzzy
 #| msgid "Link not found"
 msgid "Link not found!"
@@ -17410,24 +17477,24 @@ msgstr "ئۇلىنىشنى تاپالمىدى"
 msgid "Version information"
 msgstr "نەشرى ئۇچۇرى"
 
-#: src/Engines/Innodb.php:32
+#: src/Engines/Innodb.php:29
 msgid "Data home directory"
 msgstr "سانلىق مەلۇمات ئائىلە مۇندەرىجىسى"
 
-#: src/Engines/Innodb.php:33
+#: src/Engines/Innodb.php:30
 msgid "The common part of the directory path for all InnoDB data files."
 msgstr ""
 "بارلىق InnoDB سانلىق مەلۇمات ھۆججەتلىرىنىڭ مۇندەرىجە يولىنىڭ ئورتاق قىسمى."
 
-#: src/Engines/Innodb.php:35
+#: src/Engines/Innodb.php:32
 msgid "Data files"
 msgstr "سانلىق مەلۇمات ھۆججەتلىرى"
 
-#: src/Engines/Innodb.php:37
+#: src/Engines/Innodb.php:34
 msgid "Autoextend increment"
 msgstr "ئاپتوماتىك كېڭەيتىش"
 
-#: src/Engines/Innodb.php:39
+#: src/Engines/Innodb.php:36
 msgid ""
 "The increment size for extending the size of an autoextending tablespace "
 "when it becomes full."
@@ -17435,11 +17502,11 @@ msgstr ""
 "تولدۇرغاندا ئاپتوماتىك كېڭەيتىلگەن ئۈستەل بوشلۇقىنىڭ چوڭ-كىچىكلىكىنى "
 "كېڭەيتىشنىڭ چوڭ-كىچىكلىكى."
 
-#: src/Engines/Innodb.php:44
+#: src/Engines/Innodb.php:41
 msgid "Buffer pool size"
 msgstr "بۇففېر كۆلچىكىنىڭ چوڭلۇقى"
 
-#: src/Engines/Innodb.php:45
+#: src/Engines/Innodb.php:42
 msgid ""
 "The size of the memory buffer InnoDB uses to cache data and indexes of its "
 "tables."
@@ -17447,73 +17514,13 @@ msgstr ""
 "ئىچكى ساقلىغۇچنىڭ چوڭلۇقى InnoDB جەدۋەلنىڭ سانلىق مەلۇماتلىرى ۋە "
 "كۆرسەتكۈچلىرىنى ساقلايدۇ."
 
-#: src/Engines/Innodb.php:105
+#: src/Engines/Innodb.php:102
 msgid "Buffer Pool"
 msgstr "Buffer Pool"
 
-#: src/Engines/Innodb.php:105 src/Server/Status/Data.php:187
+#: src/Engines/Innodb.php:102 src/Server/Status/Data.php:187
 msgid "InnoDB Status"
 msgstr "InnoDB ھالىتى"
-
-#: src/Engines/Innodb.php:128
-msgid "Buffer Pool Usage"
-msgstr "Buffer Pool Usage"
-
-#: src/Engines/Innodb.php:135
-msgid "pages"
-msgstr "بەت سانى"
-
-#: src/Engines/Innodb.php:143
-msgid "Free pages"
-msgstr "ئاق(قۇرۇق)بەت"
-
-#: src/Engines/Innodb.php:149
-msgid "Dirty pages"
-msgstr "كىرەكسىز(مەينەت)بەت"
-
-#: src/Engines/Innodb.php:155
-msgid "Pages containing data"
-msgstr "قۇرۇق ئەمەس بەت"
-
-#: src/Engines/Innodb.php:161
-msgid "Pages to be flushed"
-msgstr "يىڭىلايدىغان بەت"
-
-#: src/Engines/Innodb.php:167
-msgid "Busy pages"
-msgstr "يۈك بەت"
-
-#: src/Engines/Innodb.php:176
-msgid "Latched pages"
-msgstr "قۇلۇپلانغان بەت"
-
-#: src/Engines/Innodb.php:187
-msgid "Buffer Pool Activity"
-msgstr "Buffer Pool پائالىيىتى"
-
-#: src/Engines/Innodb.php:191
-msgid "Read requests"
-msgstr "ئۇقۇش تەلىپى"
-
-#: src/Engines/Innodb.php:197
-msgid "Write requests"
-msgstr "يېزىش تەلىپى"
-
-#: src/Engines/Innodb.php:203
-msgid "Read misses"
-msgstr "سېغىنغانلارنى ئوقۇڭ"
-
-#: src/Engines/Innodb.php:209
-msgid "Write waits"
-msgstr "يېزىشنى كۈتۈۋاتقان سانى"
-
-#: src/Engines/Innodb.php:215
-msgid "Read misses in %"
-msgstr "% دىكى خاتالىقلارنى ئوقۇڭ"
-
-#: src/Engines/Innodb.php:230
-msgid "Write waits in %"
-msgstr "ساقلاشنى ساقلاش%"
 
 #: src/Engines/Myisam.php:28
 msgid "Data pointer size"
@@ -17791,13 +17798,13 @@ msgstr ""
 "% S سېكۇنت ھەرىكەتسىزلىكى سەۋەبىدىن ئاپتوماتىك چېكىنىپ چىقتىڭىز. قايتا "
 "كىرگەندىن كېيىن ، سىز كەتكەن خىزمەتنى ئەسلىگە كەلتۈرەلەيسىز."
 
-#: src/Export/Export.php:189 src/Export/Export.php:220
-#: src/Export/Export.php:428
+#: src/Export/Export.php:190 src/Export/Export.php:221
+#: src/Export/Export.php:429
 #, php-format
 msgid "Insufficient space to save the file %s."
 msgstr "ھۆججەتنى ساقلاشقا يىتەرلىك بوشلۇق يوق %s。"
 
-#: src/Export/Export.php:381
+#: src/Export/Export.php:382
 #, php-format
 msgid ""
 "File %s already exists on server, change filename or check overwrite option."
@@ -17805,18 +17812,18 @@ msgstr ""
 "%s بۇ ھۆججەت مۇلازىمىتېردا باركەن، ھۆججەت ئىسمىنى ئۆزگەرتىڭ ياكى قاپلاپ "
 "كۆچۈرۈش تۈرىنى تالالڭ."
 
-#: src/Export/Export.php:388 src/Export/Export.php:398
+#: src/Export/Export.php:389 src/Export/Export.php:399
 #, php-format
 msgid "The web server does not have permission to save the file %s."
 msgstr "بۇ %s ھۆججەتنى  مۇلازىمىتېردا ساقلاش ھوقۇقىڭىز يېتەرسىز."
 
-#: src/Export/Export.php:435
+#: src/Export/Export.php:436
 #, php-format
 msgid "Dump has been saved to file %s."
 msgstr "%s ھۆججىتىدە ساقلاندى."
 
 #. l10n: A query written by the user is a "raw query" that could be using no tables or databases in particular
-#: src/Export/Export.php:774
+#: src/Export/Export.php:775
 msgid "Exporting a raw query is not supported for this export method."
 msgstr "خام ئەشيا چىقىرىش بۇ ئېكسپورت ئۇسۇلىنى قوللىمايدۇ."
 
@@ -18123,11 +18130,11 @@ msgstr ""
 msgid "web server upload directory:"
 msgstr "مۇلازىمىتېردىكى يۈكلەش مۇندەرىجىسى"
 
-#: src/InsertEdit.php:855 src/Sql.php:862
+#: src/InsertEdit.php:855 src/Sql.php:885
 msgid "Showing SQL query"
 msgstr "SQL سوئالنى كۆرسىتىش"
 
-#: src/InsertEdit.php:879 src/Sql.php:842
+#: src/InsertEdit.php:879 src/Sql.php:865
 #, fuzzy, php-format
 msgid "Inserted row id: %1$d"
 msgstr "قىستۇرما قۇر id:% 1 $ d"
@@ -18260,7 +18267,7 @@ msgstr "يېڭى"
 
 #: src/Navigation/Nodes/NodeFunctionContainer.php:22
 #: src/Navigation/Nodes/NodeFunctionContainer.php:26
-#: src/Plugins/Export/ExportSql.php:644 src/Plugins/Export/ExportXml.php:102
+#: src/Plugins/Export/ExportSql.php:645 src/Plugins/Export/ExportXml.php:102
 msgid "Functions"
 msgstr "ئىقتىدارلىرى"
 
@@ -18280,7 +18287,7 @@ msgstr "كېڭەيتىش / يىمىرىلىش"
 
 #: src/Navigation/Nodes/NodeProcedureContainer.php:22
 #: src/Navigation/Nodes/NodeProcedureContainer.php:26
-#: src/Plugins/Export/ExportSql.php:633 src/Plugins/Export/ExportXml.php:107
+#: src/Plugins/Export/ExportSql.php:634 src/Plugins/Export/ExportXml.php:107
 msgid "Procedures"
 msgstr "تەرتىپلەر"
 
@@ -18591,41 +18598,41 @@ msgstr ""
 msgid "No partial dependencies found!"
 msgstr "قىسمەن بېقىندىلىق تېپىلمىدى!"
 
-#: src/Operations.php:538
+#: src/Operations.php:545
 msgid "Coalesce"
 msgstr "Coalesce"
 
-#: src/Operations.php:889
+#: src/Operations.php:896
 msgid "Can't move table to same one!"
 msgstr "جەدۋەلنى ئوخشاش ئورۇنغا يۆتكىگىلى بولمايدۇ!"
 
-#: src/Operations.php:891
+#: src/Operations.php:898
 msgid "Can't copy table to same one!"
 msgstr "جەدۋەلنى ئوخشاش بىر نۇسخا كۆچۈرگىلى بولمايدۇ!"
 
-#: src/Operations.php:927
+#: src/Operations.php:934
 #, fuzzy, php-format
 #| msgid "View %s has been dropped."
 msgid "Table %s has been moved to %s. Privileges have been adjusted."
 msgstr "%s كۆرۈنمە ئۆچۈرۈلدى"
 
-#: src/Operations.php:933
+#: src/Operations.php:940
 #, fuzzy, php-format
 #| msgid "View %s has been dropped."
 msgid "Table %s has been copied to %s. Privileges have been adjusted."
 msgstr "%s كۆرۈنمە ئۆچۈرۈلدى"
 
-#: src/Operations.php:939
+#: src/Operations.php:946
 #, fuzzy, php-format
 msgid "Table %s has been moved to %s."
 msgstr "جەدۋەل% s% s گە يۆتكەلدى."
 
-#: src/Operations.php:943
+#: src/Operations.php:950
 #, fuzzy, php-format
 msgid "Table %s has been copied to %s."
 msgstr "جەدۋەل% s% s گە كۆچۈرۈلدى."
 
-#: src/Operations.php:966
+#: src/Operations.php:973
 msgid "The table name is empty!"
 msgstr "جەدۋەلنىڭ ئىسمى قۇرۇق!"
 
@@ -18766,25 +18773,25 @@ msgid "Data dump options"
 msgstr "سانلىق مەلۇمات تۆكۈش تاللانمىلىرى"
 
 #: src/Plugins/Export/ExportHtmlword.php:192
-#: src/Plugins/Export/ExportOdt.php:244 src/Plugins/Export/ExportSql.php:2149
+#: src/Plugins/Export/ExportOdt.php:244 src/Plugins/Export/ExportSql.php:2155
 #: src/Plugins/Export/ExportTexytext.php:177
 msgid "Dumping data for table"
 msgstr "ئايلاندۇرۇپ ساقلاش جەدىۋېلىدىكى سانلىق مەلۇمات"
 
 #: src/Plugins/Export/ExportHtmlword.php:486
-#: src/Plugins/Export/ExportOdt.php:616 src/Plugins/Export/ExportSql.php:1893
+#: src/Plugins/Export/ExportOdt.php:616 src/Plugins/Export/ExportSql.php:1899
 #: src/Plugins/Export/ExportTexytext.php:458
 msgid "Table structure for table"
 msgstr "جەدېۋەلنىڭ تۈزىلىشى"
 
 #: src/Plugins/Export/ExportHtmlword.php:503
-#: src/Plugins/Export/ExportOdt.php:636 src/Plugins/Export/ExportSql.php:1951
+#: src/Plugins/Export/ExportOdt.php:636 src/Plugins/Export/ExportSql.php:1957
 #: src/Plugins/Export/ExportTexytext.php:471
 msgid "Structure for view"
 msgstr "كۆرۈش قۇرۇلمىسى"
 
 #: src/Plugins/Export/ExportHtmlword.php:509
-#: src/Plugins/Export/ExportOdt.php:644 src/Plugins/Export/ExportSql.php:1990
+#: src/Plugins/Export/ExportOdt.php:644 src/Plugins/Export/ExportSql.php:1996
 #: src/Plugins/Export/ExportTexytext.php:475
 msgid "Stand-in structure for view"
 msgstr "كۆرۈش قۇرۇلمىسى"
@@ -18812,7 +18819,7 @@ msgid "Structure of table @TABLE@"
 msgstr "تۈزىلىشىنىلا"
 
 #: src/Plugins/Export/ExportLatex.php:123 src/Plugins/Export/ExportOdt.php:94
-#: src/Plugins/Export/ExportSql.php:278
+#: src/Plugins/Export/ExportSql.php:279
 msgid "Object creation options"
 msgstr "ئوبيېكت قۇرۇش تاللانمىلىرى"
 
@@ -18838,7 +18845,7 @@ msgid "Label key:"
 msgstr "ئاچقۇچلۇق ئېمزا"
 
 #: src/Plugins/Export/ExportLatex.php:149 src/Plugins/Export/ExportOdt.php:102
-#: src/Plugins/Export/ExportSql.php:203
+#: src/Plugins/Export/ExportSql.php:204
 msgid "Display foreign key relationships"
 msgstr "چەتئەل ئاچقۇچلۇق مۇناسىۋەتلىرىنى كۆرسىتىش"
 
@@ -18849,7 +18856,7 @@ msgid "Display comments"
 msgstr "جەدۋەل ئىزاھى"
 
 #: src/Plugins/Export/ExportLatex.php:162 src/Plugins/Export/ExportOdt.php:115
-#: src/Plugins/Export/ExportSql.php:211
+#: src/Plugins/Export/ExportSql.php:212
 #, fuzzy
 #| msgid "Available MIME types"
 msgid "Display media types"
@@ -18861,21 +18868,21 @@ msgstr "MIMEشەكلىنى ئىشلىتەلەيسىز"
 msgid "Put columns names in the first row:"
 msgstr "خەت ئايرىش بەلگىسى"
 
-#: src/Plugins/Export/ExportLatex.php:231 src/Plugins/Export/ExportSql.php:762
+#: src/Plugins/Export/ExportLatex.php:231 src/Plugins/Export/ExportSql.php:763
 #: src/Plugins/Export/ExportXml.php:214
 #, fuzzy
 #| msgid "Generation Time"
 msgid "Generation Time:"
 msgstr "قۇرۇلغان ۋاقتى"
 
-#: src/Plugins/Export/ExportLatex.php:234 src/Plugins/Export/ExportSql.php:768
+#: src/Plugins/Export/ExportLatex.php:234 src/Plugins/Export/ExportSql.php:769
 #: src/Plugins/Export/ExportXml.php:217
 #, fuzzy
 #| msgid "PHP Version"
 msgid "PHP Version:"
 msgstr "PHPنۇسخىسى"
 
-#: src/Plugins/Export/ExportLatex.php:320 src/Plugins/Export/ExportSql.php:2039
+#: src/Plugins/Export/ExportLatex.php:320 src/Plugins/Export/ExportSql.php:2045
 #, fuzzy
 #| msgid "Data"
 msgid "Data:"
@@ -18936,7 +18943,7 @@ msgstr "ساندان"
 msgid "Stand in"
 msgstr "كېيىن"
 
-#: src/Plugins/Export/ExportSql.php:182
+#: src/Plugins/Export/ExportSql.php:183
 msgid ""
 "Display comments <i>(includes info such as export timestamp, PHP version, "
 "and server version)</i>"
@@ -18944,11 +18951,11 @@ msgstr ""
 "ئىنكاسلارنى كۆرسىتىش <i> (ئېكسپورت ۋاقتى ، PHP نەشرى ۋە مۇلازىمېتىر نۇسخىسى "
 "قاتارلىق ئۇچۇرلارنى ئۆز ئىچىگە ئالىدۇ) </i>"
 
-#: src/Plugins/Export/ExportSql.php:189
+#: src/Plugins/Export/ExportSql.php:190
 msgid "Additional custom header comment (\\n splits lines):"
 msgstr "قوشۇمچە ئىختىيارى ماۋزۇ ئىزاھاتى (\\ n بۆلەكلەرنى بۆلۈش):"
 
-#: src/Plugins/Export/ExportSql.php:195
+#: src/Plugins/Export/ExportSql.php:196
 msgid ""
 "Include a timestamp of when databases were created, last updated, and last "
 "checked"
@@ -18956,43 +18963,43 @@ msgstr ""
 "سانداننىڭ قاچان قۇرۇلغانلىقى ، ئاخىرقى قېتىم يېڭىلانغانلىقى ۋە ئاخىرقى قېتىم "
 "تەكشۈرۈلگەن ۋاقىت جەدۋىلىنى ئۆز ئىچىگە ئالىدۇ"
 
-#: src/Plugins/Export/ExportSql.php:248
+#: src/Plugins/Export/ExportSql.php:249
 #, fuzzy
 #| msgid "Export"
 msgid "Export metadata"
 msgstr "چىقىرىش"
 
-#: src/Plugins/Export/ExportSql.php:286
+#: src/Plugins/Export/ExportSql.php:287
 #, fuzzy
 #| msgid "Add constraints"
 msgid "Add statements:"
 msgstr "مەجبۇرى قوشۇش"
 
-#: src/Plugins/Export/ExportSql.php:294 src/Plugins/Export/ExportSql.php:303
-#: src/Plugins/Export/ExportSql.php:320 src/Plugins/Export/ExportSql.php:329
-#: src/Plugins/Export/ExportSql.php:353 src/Plugins/Export/ExportSql.php:381
-#: src/Plugins/Export/ExportSql.php:390
+#: src/Plugins/Export/ExportSql.php:295 src/Plugins/Export/ExportSql.php:304
+#: src/Plugins/Export/ExportSql.php:321 src/Plugins/Export/ExportSql.php:330
+#: src/Plugins/Export/ExportSql.php:354 src/Plugins/Export/ExportSql.php:382
+#: src/Plugins/Export/ExportSql.php:391
 #, fuzzy, php-format
 msgid "Add %s statement"
 msgstr "% S جۈملىسىنى قوشۇڭ"
 
-#: src/Plugins/Export/ExportSql.php:336
+#: src/Plugins/Export/ExportSql.php:337
 msgid "(less efficient as indexes will be generated during table creation)"
 msgstr ""
 "(جەدۋەل قۇرۇش جەريانىدا كۆرسەتكۈچ ھاسىل قىلىنغاندا ئۈنۈمى تۆۋەن بولىدۇ)"
 
-#: src/Plugins/Export/ExportSql.php:343
+#: src/Plugins/Export/ExportSql.php:344
 #, fuzzy, php-format
 #| msgid "Use this value"
 msgid "%s value"
 msgstr "مۇشۇ قىممەتنى ئىشلىتىش"
 
 #. l10n: Allow simplifying exported view syntax to only "CREATE VIEW"
-#: src/Plugins/Export/ExportSql.php:360
+#: src/Plugins/Export/ExportSql.php:361
 msgid "Use simple view export"
 msgstr "ئاددىي كۆرۈنۈش ئېكسپورتىنى ئىشلىتىڭ"
 
-#: src/Plugins/Export/ExportSql.php:399
+#: src/Plugins/Export/ExportSql.php:400
 msgid ""
 "Enclose table and column names with backquotes <i>(Protects column and table "
 "names formed with special characters or keywords)</i>"
@@ -19000,37 +19007,37 @@ msgstr ""
 "جەدۋەل ۋە ئىستون نامىنى ئارقا بەلگە <i> (ئالاھىدە ھەرپ ياكى ئاچقۇچلۇق سۆز "
 "بىلەن شەكىللەنگەن ئىستون ۋە جەدۋەل نامىنى قوغدايدۇ) </i>"
 
-#: src/Plugins/Export/ExportSql.php:414
+#: src/Plugins/Export/ExportSql.php:415
 #, fuzzy
 #| msgid "Action"
 msgid "Data creation options"
 msgstr "ئامال"
 
-#: src/Plugins/Export/ExportSql.php:419 src/Plugins/Export/ExportSql.php:2112
+#: src/Plugins/Export/ExportSql.php:420 src/Plugins/Export/ExportSql.php:2118
 msgid "Truncate table before insert"
 msgstr "قىستۇرۇشتىن بۇرۇن جەدۋەلنى كېسىڭ"
 
-#: src/Plugins/Export/ExportSql.php:426
+#: src/Plugins/Export/ExportSql.php:427
 msgid "Instead of <code>INSERT</code> statements, use:"
 msgstr "<code> INSERT </code> جۈملىسىنىڭ ئورنىغا ، ئىشلىتىڭ:"
 
-#: src/Plugins/Export/ExportSql.php:432
+#: src/Plugins/Export/ExportSql.php:433
 msgid "<code>INSERT DELAYED</code> statements"
 msgstr "<code> INSERT DELAYED </code> جۈملىلىرى"
 
-#: src/Plugins/Export/ExportSql.php:441 src/Plugins/Export/ExportSql.php:468
+#: src/Plugins/Export/ExportSql.php:442 src/Plugins/Export/ExportSql.php:469
 msgid "<code>INSERT IGNORE</code> statements"
 msgstr "<code> INSERT IGNORE </code> جۈملىلىرى"
 
-#: src/Plugins/Export/ExportSql.php:452
+#: src/Plugins/Export/ExportSql.php:453
 msgid "Function to use when dumping data:"
 msgstr "سانلىق مەلۇماتلارنى تۆككەندە ئىشلىتىش ئىقتىدارى:"
 
-#: src/Plugins/Export/ExportSql.php:463
+#: src/Plugins/Export/ExportSql.php:464
 msgid "Syntax to use when inserting data:"
 msgstr "سانلىق مەلۇمات قىستۇرغاندا ئىشلىتىدىغان گرامماتىكىسى:"
 
-#: src/Plugins/Export/ExportSql.php:473
+#: src/Plugins/Export/ExportSql.php:474
 msgid ""
 "include column names in every <code>INSERT</code> statement <br> &nbsp; "
 "&nbsp; &nbsp; Example: <code>INSERT INTO tbl_name (col_A,col_B,col_C) VALUES "
@@ -19040,7 +19047,7 @@ msgstr ""
 "nbsp; & nbsp; مىسال: <code> INSERT INTO tbl_name (col_A, col_B, col_C) "
 "VALUES (1,2,3) </code>"
 
-#: src/Plugins/Export/ExportSql.php:478
+#: src/Plugins/Export/ExportSql.php:479
 msgid ""
 "insert multiple rows in every <code>INSERT</code> statement<br> &nbsp; "
 "&nbsp; &nbsp; Example: <code>INSERT INTO tbl_name VALUES (1,2,3), (4,5,6), "
@@ -19050,7 +19057,7 @@ msgstr ""
 "& nbsp; & nbsp; مىسال: <code> INSERT INTO tbl_name VALUES (1,2,3) ، "
 "(4,5,6) ، (7,8,9) </code>"
 
-#: src/Plugins/Export/ExportSql.php:483
+#: src/Plugins/Export/ExportSql.php:484
 msgid ""
 "both of the above<br> &nbsp; &nbsp; &nbsp; Example: <code>INSERT INTO "
 "tbl_name (col_A,col_B,col_C) VALUES (1,2,3), (4,5,6), (7,8,9)</code>"
@@ -19059,7 +19066,7 @@ msgstr ""
 "INTO tbl_name (col_A, col_B, col_C) VALUES (1,2,3) ، (4,5,6) ، (7,8,9) </"
 "code>"
 
-#: src/Plugins/Export/ExportSql.php:488
+#: src/Plugins/Export/ExportSql.php:489
 msgid ""
 "neither of the above<br> &nbsp; &nbsp; &nbsp; Example: <code>INSERT INTO "
 "tbl_name VALUES (1,2,3)</code>"
@@ -19067,7 +19074,7 @@ msgstr ""
 "يۇقىرىدىكى <br> & nbsp; & nbsp; & nbsp; مىسال: <code> INSERT INTO tbl_name "
 "VALUES (1,2,3) </code>"
 
-#: src/Plugins/Export/ExportSql.php:507
+#: src/Plugins/Export/ExportSql.php:508
 msgid ""
 "Dump binary columns in hexadecimal notation <i>(for example, \"abc\" becomes "
 "0x616263)</i>"
@@ -19075,7 +19082,7 @@ msgstr ""
 "ئىككىلىك ئىستوننى ئالتە تەرەپلىك ئىزاھاتقا تاشلاش <i> (مەسىلەن ، «abc» "
 "0x616263 غا ئايلىنىدۇ) </i>"
 
-#: src/Plugins/Export/ExportSql.php:516
+#: src/Plugins/Export/ExportSql.php:517
 msgid ""
 "Dump TIMESTAMP columns in UTC <i>(enables TIMESTAMP columns to be dumped and "
 "reloaded between servers in different time zones)</i>"
@@ -19084,125 +19091,125 @@ msgstr ""
 "ۋاقىت رايونىدىكى مۇلازىمېتىرلار ئارىسىدا تاشلىغىلى ۋە قايتا يۈكلىيەلەيدۇ) </"
 "i>"
 
-#: src/Plugins/Export/ExportSql.php:593
+#: src/Plugins/Export/ExportSql.php:594
 msgid "It appears your database uses routines;"
 msgstr ""
 "ئۇ سىزنىڭ ساندىنىڭىزنىڭ كۈندىلىك مەشغۇلاتلىرىنى ئىشلىتىدىغاندەك قىلىدۇ."
 
-#: src/Plugins/Export/ExportSql.php:596 src/Plugins/Export/ExportSql.php:1506
-#: src/Plugins/Export/ExportSql.php:1939
+#: src/Plugins/Export/ExportSql.php:597 src/Plugins/Export/ExportSql.php:1512
+#: src/Plugins/Export/ExportSql.php:1945
 msgid "alias export may not work reliably in all cases."
 msgstr "تاشقى پېرېۋوت ئېكسپورتى ھەممە ئەھۋالدا ئىشەنچلىك ئىشلىمەسلىكى مۇمكىن."
 
-#: src/Plugins/Export/ExportSql.php:1053
+#: src/Plugins/Export/ExportSql.php:1054
 #, fuzzy
 #| msgid "Export"
 msgid "Metadata"
 msgstr "چىقىرىش"
 
-#: src/Plugins/Export/ExportSql.php:1114
+#: src/Plugins/Export/ExportSql.php:1119
 #, fuzzy, php-format
 #| msgid "Delete tracking data for this table"
 msgid "Metadata for table %s"
 msgstr "سانلىق مەلۇماتنى ئىزقوغلاپ ئۈچۈرۈش"
 
-#: src/Plugins/Export/ExportSql.php:1121
+#: src/Plugins/Export/ExportSql.php:1126
 #, fuzzy, php-format
 #| msgid "Create table on database %s"
 msgid "Metadata for database %s"
 msgstr "ساندان %s غا جەدىۋەل قۇرۇش"
 
-#: src/Plugins/Export/ExportSql.php:1420
+#: src/Plugins/Export/ExportSql.php:1426
 #, fuzzy, php-format
 #| msgid "Table structure for table"
 msgid "Error reading structure for table %s:"
 msgstr "جەدېۋەلنىڭ تۈزىلىشى"
 
-#: src/Plugins/Export/ExportSql.php:1503
+#: src/Plugins/Export/ExportSql.php:1509
 msgid "It appears your database uses views;"
 msgstr "ئۇ سىزنىڭ سانداندا كۆرۈنۈشنى ئىشلىتىدىغاندەك قىلىدۇ."
 
-#: src/Plugins/Export/ExportSql.php:1647
+#: src/Plugins/Export/ExportSql.php:1653
 msgid "Constraints for dumped tables"
 msgstr "تاشلانغان جەدۋەللەرنىڭ چەكلىمىسى"
 
-#: src/Plugins/Export/ExportSql.php:1648
+#: src/Plugins/Export/ExportSql.php:1654
 msgid "Constraints for table"
 msgstr "جەدۋەلنىڭ چەكلىمىسى"
 
-#: src/Plugins/Export/ExportSql.php:1674
+#: src/Plugins/Export/ExportSql.php:1680
 #, fuzzy
 #| msgid "Inside table(s):"
 msgid "Indexes for dumped tables"
 msgstr "تۆۋەندىكى جەدۋەل(لەر): "
 
-#: src/Plugins/Export/ExportSql.php:1675
+#: src/Plugins/Export/ExportSql.php:1681
 #, fuzzy
 #| msgid "Inside table(s):"
 msgid "Indexes for table"
 msgstr "تۆۋەندىكى جەدۋەل(لەر): "
 
-#: src/Plugins/Export/ExportSql.php:1698
+#: src/Plugins/Export/ExportSql.php:1704
 #, fuzzy
 #| msgid "Add AUTO_INCREMENT value"
 msgid "AUTO_INCREMENT for dumped tables"
 msgstr "AUTO_INCREMENT قوشۇش"
 
-#: src/Plugins/Export/ExportSql.php:1699
+#: src/Plugins/Export/ExportSql.php:1705
 #, fuzzy
 #| msgid "Add AUTO_INCREMENT value"
 msgid "AUTO_INCREMENT for table"
 msgstr "AUTO_INCREMENT قوشۇش"
 
-#: src/Plugins/Export/ExportSql.php:1755
+#: src/Plugins/Export/ExportSql.php:1761
 msgid "MEDIA TYPES FOR TABLE"
 msgstr "جەدۋەل ئۈچۈن مېدىيا تىپلىرى"
 
-#: src/Plugins/Export/ExportSql.php:1785
+#: src/Plugins/Export/ExportSql.php:1791
 msgid "RELATIONSHIPS FOR TABLE"
 msgstr "جەدۋەل ئۈچۈن مۇناسىۋەت"
 
-#: src/Plugins/Export/ExportSql.php:1936
+#: src/Plugins/Export/ExportSql.php:1942
 msgid "It appears your table uses triggers;"
 msgstr "جەدۋەلدە قوزغاتقۇچ ئىشلىتىلگەندەك قىلىدۇ."
 
-#: src/Plugins/Export/ExportSql.php:1966
+#: src/Plugins/Export/ExportSql.php:1972
 #, fuzzy, php-format
 msgid "Structure for view %s exported as a table"
 msgstr "جەدۋەل سۈپىتىدە ئېكسپورت قىلىنغان% s نى كۆرۈش قۇرۇلمىسى"
 
-#: src/Plugins/Export/ExportSql.php:1993
+#: src/Plugins/Export/ExportSql.php:1999
 msgid "(See below for the actual view)"
 msgstr "(ئەمەلىي كۆرۈنۈش ئۈچۈن تۆۋەنگە قاراڭ)"
 
-#: src/Plugins/Export/ExportSql.php:2050
+#: src/Plugins/Export/ExportSql.php:2056
 #, fuzzy, php-format
 #| msgid "Delete tracking data for this table"
 msgid "Error reading data for table %s:"
 msgstr "سانلىق مەلۇماتنى ئىزقوغلاپ ئۈچۈرۈش"
 
-#: src/Plugins/Export/ExportSql.php:2626
+#: src/Plugins/Export/ExportSql.php:2632
 #: src/Plugins/Schema/Pdf/PdfRelationSchema.php:566
 #, fuzzy
 #| msgid "Creation"
 msgid "Creation:"
 msgstr "قۇرۇش"
 
-#: src/Plugins/Export/ExportSql.php:2634
+#: src/Plugins/Export/ExportSql.php:2640
 #: src/Plugins/Schema/Pdf/PdfRelationSchema.php:577
 #, fuzzy
 #| msgid "Last update"
 msgid "Last update:"
 msgstr "ئاخىرقى يېڭلىنىش"
 
-#: src/Plugins/Export/ExportSql.php:2642
+#: src/Plugins/Export/ExportSql.php:2648
 #: src/Plugins/Schema/Pdf/PdfRelationSchema.php:588
 #, fuzzy
 #| msgid "Last check"
 msgid "Last check:"
 msgstr "ئاخىرقى تەكشۈرۈش"
 
-#: src/Plugins/Export/ExportSql.php:2663
+#: src/Plugins/Export/ExportSql.php:2669
 msgid ""
 "Database system or older MySQL server to maximize output compatibility with:"
 msgstr ""
@@ -20059,15 +20066,15 @@ msgstr "دوكلات تېمىسى"
 msgid "Flush query cache"
 msgstr "Flush query cache"
 
-#: src/Server/Status/Processes.php:90
+#: src/Server/Status/Processes.php:100
 msgid "ID"
 msgstr "كىملىك"
 
-#: src/Server/Status/Processes.php:94
+#: src/Server/Status/Processes.php:104
 msgid "Command"
 msgstr "بۇيرۇق"
 
-#: src/Server/Status/Processes.php:100
+#: src/Server/Status/Processes.php:110
 msgid "Progress"
 msgstr "ئىلگىرىلەش"
 
@@ -20092,16 +20099,16 @@ msgstr ""
 msgid "No newer stable version is available"
 msgstr "يېڭى مۇقىم نەشرى يوق"
 
-#: src/Sql.php:445
+#: src/Sql.php:448
 #, fuzzy, php-format
 msgid "Using bookmark \"%s\" as default browse query."
 msgstr "خەتكۈچ \"% s\" نى سۈكۈتتىكى كۆز قاراش سۈپىتىدە ئىشلىتىش."
 
-#: src/Sql.php:859
+#: src/Sql.php:882
 msgid "Showing as PHP code"
 msgstr "PHP كودى سۈپىتىدە كۆرسىتىلىدۇ"
 
-#: src/Sql.php:1213
+#: src/Sql.php:1236
 #, fuzzy, php-format
 msgid ""
 "Current selection does not contain a unique column. Grid edit, checkbox, "
@@ -20110,7 +20117,7 @@ msgstr ""
 "نۆۋەتتىكى تاللاشتا ئۆزگىچە ئىستون يوق. كاتەكچە تەھرىرلەش ، تەكشۈرۈش "
 "رامكىسى ، تەھرىرلەش ، كۆپەيتىش ۋە ئۆچۈرۈش ئىقتىدارلىرى يوق. % s"
 
-#: src/Sql.php:1227
+#: src/Sql.php:1250
 #, fuzzy, php-format
 msgid ""
 "Current selection does not contain a unique column. Grid edit, Edit, Copy "
@@ -20174,12 +20181,12 @@ msgstr "كۆرسەتكۈچ زاپچاسلىرى ئېنىقلانمىدى!"
 msgid "Problems with indexes of table `%s`"
 msgstr "جەدۋەل `% s` نىڭ كۆرسەتكۈچلىرى بار مەسىلىلەر"
 
-#: src/Table/TableMover.php:294
+#: src/Table/TableMover.php:313
 #, fuzzy, php-format
 msgid "Source database `%s` was not found!"
 msgstr "مەنبە ساندان `% s` تېپىلمىدى!"
 
-#: src/Table/TableMover.php:303
+#: src/Table/TableMover.php:322
 #, fuzzy, php-format
 #| msgid "Theme %s not found!"
 msgid "Target database `%s` was not found!"
@@ -20790,6 +20797,9 @@ msgstr "ZIP ئارخىپىدىكى خاتالىق:"
 #: src/ZipExtension.php:74
 msgid "No files found inside ZIP archive!"
 msgstr "ZIP ئارخىپى ئىچىدە ھۆججەت تېپىلمىدى!"
+
+#~ msgid "pages"
+#~ msgstr "بەت سانى"
 
 #~ msgid "Connection for controluser as defined in your configuration failed."
 #~ msgstr "تەڭشەك ھۆججىتى ئىچىدىكى ئىشلەنكۈچى ئۇلۈنما كونتىرولى مەغلۇب بولدى."
