@@ -521,7 +521,7 @@ class Table implements Stringable
                             if (
                                     str_contains($defaultValue, 'current_timestamp')
                                     || str_contains($defaultValue, 'CURRENT_TIMESTAMP')
-                                ) {
+                            ) {
                                 $query .= ' DEFAULT CURRENT_TIMESTAMP(' . $length . ')';
                             } else {
                                 $query .= ' DEFAULT ' . $dbi->quoteString($defaultValue);
